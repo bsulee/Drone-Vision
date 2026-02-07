@@ -68,12 +68,20 @@ def main(input: str, config: str, output: Optional[str], fps: Optional[float], v
     logger.info("Target FPS: %s", cfg.extraction.target_fps)
     logger.debug("Config: %s", cfg.model_dump())
 
-    # Import here to allow --help to work before pipeline is implemented.
+    # Import display here to allow --help to work before dependencies are installed.
     from dxd_vision.cli.display import DisplayManager
-    from dxd_vision.pipeline.pipeline import VisionPipeline
 
     display = DisplayManager()
     display.show_header()
+
+    try:
+        from dxd_vision.pipeline.pipeline import VisionPipeline
+    except (ImportError, AttributeError):
+        display.show_error(
+            "Pipeline not yet implemented. "
+            "Waiting on Back-End Engineer (Beads 4-6)."
+        )
+        sys.exit(1)
 
     try:
         pipeline = VisionPipeline(cfg)
