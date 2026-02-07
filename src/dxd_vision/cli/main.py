@@ -65,6 +65,23 @@ from dxd_vision.utils.logging import setup_logging
     default=None,
     help="Comma-separated target classes (e.g., 'person,vehicle').",
 )
+@click.option(
+    "--track", "-t",
+    is_flag=True,
+    help="Enable multi-object tracking (auto-enables detection).",
+)
+@click.option(
+    "--tracker",
+    default=None,
+    type=click.Choice(["bytetrack", "botsort"], case_sensitive=False),
+    help="Tracker algorithm: bytetrack (default) or botsort.",
+)
+@click.option(
+    "--max-age",
+    default=None,
+    type=int,
+    help="Max frames to keep lost tracks (default: 30).",
+)
 @click.version_option(version=__version__, prog_name="dxd-vision")
 def main(
     input: str,
@@ -76,6 +93,9 @@ def main(
     model: Optional[str],
     confidence: Optional[float],
     classes: Optional[str],
+    track: bool,
+    tracker: Optional[str],
+    max_age: Optional[int],
 ) -> None:
     """DXD Vision Engine -- AI-powered video analysis."""
     logger = setup_logging(verbose=verbose)
@@ -123,6 +143,19 @@ def main(
             sys.exit(1)
         cfg.detection.target_classes = parsed_classes
 
+    # Validate and apply tracking CLI overrides.
+    if track:
+        cfg.tracking.enabled = True
+        # --track auto-enables detection (tracking implies detection)
+        cfg.detection.enabled = True
+    if tracker is not None:
+        cfg.tracking.tracker = tracker
+    if max_age is not None:
+        if max_age <= 0:
+            click.echo(f"Error: --max-age must be positive (got {max_age})", err=True)
+            sys.exit(1)
+        cfg.tracking.max_age = max_age
+
     # Ensure output directory exists and is writable.
     output_dir = Path(cfg.extraction.output_dir)
     try:
@@ -148,8 +181,16 @@ def main(
     logger.info("Input: %s", input_path)
     logger.info("Target FPS: %s", cfg.extraction.target_fps)
 
-    # Detection logging.
-    if cfg.detection.enabled:
+    # Mode logging.
+    if cfg.tracking.enabled:
+        logger.info("Tracking: ENABLED (tracker=%s, max_age=%d)",
+                     cfg.tracking.tracker, cfg.tracking.max_age)
+        logger.info("Detection: ENABLED (implied by tracking)")
+        logger.info("Model: %s", cfg.detection.model_path)
+        logger.info("Confidence threshold: %.2f", cfg.detection.confidence_threshold)
+        logger.info("Target classes: %s", ", ".join(cfg.detection.target_classes))
+        logger.debug("Tracking device: %s", cfg.tracking.device)
+    elif cfg.detection.enabled:
         logger.info("Detection: ENABLED")
         logger.info("Model: %s", cfg.detection.model_path)
         logger.info("Confidence threshold: %.2f", cfg.detection.confidence_threshold)
@@ -182,7 +223,19 @@ def main(
 
         # Log completion summary.
         logger.info("Extraction complete: %d frames", result.frames_extracted)
-        if cfg.detection.enabled and hasattr(result, 'detection_summary') and result.detection_summary:
+
+        if cfg.tracking.enabled and hasattr(result, 'tracking_summary') and result.tracking_summary:
+            summary = result.tracking_summary
+            logger.info(
+                "Tracking complete: %d unique objects across %d/%d frames",
+                summary.total_unique_objects,
+                summary.frames_with_tracks,
+                result.frames_extracted,
+            )
+            logger.info("Avg track length: %.1f frames", summary.avg_track_length)
+            if summary.by_class:
+                logger.info("Objects by class: %s", summary.by_class)
+        elif cfg.detection.enabled and hasattr(result, 'detection_summary') and result.detection_summary:
             summary = result.detection_summary
             logger.info(
                 "Detection complete: %d objects in %d/%d frames",

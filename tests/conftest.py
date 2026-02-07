@@ -6,7 +6,12 @@ import cv2
 import numpy as np
 import pytest
 
-from dxd_vision.config.settings import DXDConfig, DetectionConfig, ExtractionConfig
+from dxd_vision.config.settings import (
+    DXDConfig,
+    DetectionConfig,
+    ExtractionConfig,
+    TrackingConfig,
+)
 from dxd_vision.models.frame import FrameData, FrameMetadata
 
 # Preferred codecs in order — mp4v fails on macOS, avc1/MJPG work.
@@ -225,5 +230,145 @@ def processing_config():
             device="cpu",
             save_annotated_frame=True,
             save_detections_json=True,
+        ),
+    )
+
+
+# ---------------------------------------------------------------------------
+# Phase 3: Tracking fixtures
+# ---------------------------------------------------------------------------
+
+class _MockTrackBoxes:
+    """Mimics ultralytics Results.boxes for tracking, with .id attribute.
+
+    Returns consistent track IDs across calls to simulate persistent tracking.
+    Each call increments an internal frame counter for simulated movement.
+    """
+
+    _call_count = 0  # class-level counter for simulated movement
+
+    def __init__(self, width: int = 640, height: int = 480, call_num: int = 0):
+        # Simulated movement: shift x by 5px each frame
+        offset = call_num * 5
+        self.xyxy = np.array([
+            [50 + offset, 80, 200 + offset, 400],     # person 1 (track 1)
+            [300 + offset, 60, 450 + offset, 380],     # person 2 (track 2)
+            [400 + offset, 200, 600 + offset, 350],    # car (track 3)
+        ], dtype=np.float32)
+        self.conf = np.array([0.92, 0.85, 0.78], dtype=np.float32)
+        self.cls = np.array([0, 0, 2], dtype=np.float32)  # COCO: 0=person, 2=car
+        self.id = np.array([1, 2, 3], dtype=np.float32)   # persistent track IDs
+
+    def __iter__(self):
+        for i in range(len(self.xyxy)):
+            yield _MockBox(self.xyxy[i], self.conf[i], self.cls[i])
+
+    def __len__(self):
+        return len(self.xyxy)
+
+
+class _MockTrackResult:
+    """Mimics ultralytics Results with tracking IDs."""
+
+    def __init__(self, width: int = 640, height: int = 480, call_num: int = 0):
+        self.boxes = _MockTrackBoxes(width, height, call_num)
+
+
+def _make_mock_tracking_model():
+    """Build a mock that behaves like ultralytics.YOLO for tracking.
+
+    Simulates model.track(persist=True) — returns consistent track IDs
+    across frames with simulated movement.
+    """
+    model = MagicMock()
+
+    # model.names: COCO class name mapping
+    model.names = {
+        0: "person", 1: "bicycle", 2: "car", 3: "motorcycle",
+        5: "bus", 7: "truck", 24: "backpack", 26: "handbag",
+        28: "suitcase", 43: "knife",
+    }
+
+    call_counter = {"n": 0}
+
+    def _track(image, conf=0.5, iou=0.45, persist=True, tracker="bytetrack.yaml",
+               verbose=False, **kwargs):
+        result = _MockTrackResult(call_num=call_counter["n"])
+        mask = result.boxes.conf >= conf
+        result.boxes.xyxy = result.boxes.xyxy[mask]
+        result.boxes.conf = result.boxes.conf[mask]
+        result.boxes.cls = result.boxes.cls[mask]
+        result.boxes.id = result.boxes.id[mask]
+        call_counter["n"] += 1
+        return [result]
+
+    # Also keep regular __call__ for detect mode (used by detector)
+    def _inference(image, conf=0.5, verbose=False, **kwargs):
+        result = _MockResult()
+        mask = result.boxes.conf >= conf
+        result.boxes.xyxy = result.boxes.xyxy[mask]
+        result.boxes.conf = result.boxes.conf[mask]
+        result.boxes.cls = result.boxes.cls[mask]
+        return [result]
+
+    model.track = _track
+    model.side_effect = _inference
+    return model
+
+
+@pytest.fixture
+def mock_tracking_model(monkeypatch):
+    """Mock YOLO model that returns predictable tracking results.
+
+    Returns 2 'person' tracks (IDs 1, 2) and 1 'car' track (ID 3) per frame,
+    with simulated movement (x shifts by 5px per frame).
+    """
+    model = _make_mock_tracking_model()
+
+    mock_yolo_class = MagicMock(return_value=model)
+    monkeypatch.setattr(
+        "dxd_vision.pipeline.tracker.YOLO", mock_yolo_class, raising=False,
+    )
+    return model
+
+
+@pytest.fixture
+def tracking_config():
+    """TrackingConfig with test defaults."""
+    return TrackingConfig(
+        enabled=True,
+        tracker="bytetrack",
+        max_age=30,
+        device="cpu",
+        save_tracking_json=True,
+        save_annotated_frame=True,
+    )
+
+
+@pytest.fixture
+def tracking_pipeline_config():
+    """DXDConfig with extraction + detection + tracking all enabled."""
+    return DXDConfig(
+        extraction=ExtractionConfig(
+            target_fps=5.0,
+            output_dir="./test_output",
+            save_sample_frame=True,
+        ),
+        detection=DetectionConfig(
+            enabled=True,
+            model_path="yolov8n.pt",
+            confidence_threshold=0.5,
+            target_classes=["person", "vehicle", "weapon", "package"],
+            device="cpu",
+            save_annotated_frame=True,
+            save_detections_json=True,
+        ),
+        tracking=TrackingConfig(
+            enabled=True,
+            tracker="bytetrack",
+            max_age=30,
+            device="cpu",
+            save_tracking_json=True,
+            save_annotated_frame=True,
         ),
     )

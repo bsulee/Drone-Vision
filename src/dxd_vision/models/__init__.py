@@ -8,6 +8,13 @@ from dxd_vision.models.detection import (
     DetectionSummary,
     ProcessingResult,
 )
+from dxd_vision.models.tracking import (
+    TrackedDetection,
+    FrameTracking,
+    ObjectTrajectory,
+    TrackingSummary,
+    TrackingResult,
+)
 
 __all__ = [
     "FrameMetadata",
@@ -19,4 +26,9 @@ __all__ = [
     "FrameDetections",
     "DetectionSummary",
     "ProcessingResult",
+    "TrackedDetection",
+    "FrameTracking",
+    "ObjectTrajectory",
+    "TrackingSummary",
+    "TrackingResult",
 ]

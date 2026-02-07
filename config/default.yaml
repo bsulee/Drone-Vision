@@ -16,3 +16,11 @@ detection:
   device: "auto"
   save_annotated_frame: true
   save_detections_json: true
+
+tracking:
+  enabled: false
+  tracker: "bytetrack"
+  max_age: 30
+  device: "auto"
+  save_tracking_json: true
+  save_annotated_frame: true

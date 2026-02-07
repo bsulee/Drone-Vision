@@ -22,6 +22,11 @@ from dxd_vision.models.detection import (
     FrameDetections,
     ProcessingResult,
 )
+from dxd_vision.models.tracking import (
+    ObjectTrajectory,
+    TrackingResult,
+    TrackingSummary,
+)
 
 
 class DisplayManager:
@@ -97,10 +102,11 @@ class DisplayManager:
             console=self.console,
         )
 
-    def show_results(self, result: ExtractionResult | ProcessingResult) -> None:
-        """Display extraction or processing results (supports both types)."""
-        # Check if this is a ProcessingResult (Phase 2+) or ExtractionResult (Phase 1).
-        if isinstance(result, ProcessingResult):
+    def show_results(self, result) -> None:
+        """Display results (supports ExtractionResult, ProcessingResult, TrackingResult)."""
+        if isinstance(result, TrackingResult):
+            self.show_tracking_results(result)
+        elif isinstance(result, ProcessingResult):
             self.show_processing_results(result)
         else:
             # Legacy Phase 1 extraction-only display.
@@ -130,6 +136,10 @@ class DisplayManager:
         """Display an error message."""
         self.console.print(f"[red bold]Error:[/red bold] {message}")
 
+    # ------------------------------------------------------------------
+    # Detection display (Phase 2)
+    # ------------------------------------------------------------------
+
     def show_detection_summary(self, summary: DetectionSummary) -> None:
         """Display detection summary with class counts and statistics."""
         table_width = max(self.term_width - 4, 30) if self.term_width < 40 else None
@@ -152,7 +162,7 @@ class DisplayManager:
                 )
 
         # Summary statistics.
-        table.add_row("─" * 15, "─" * 15)  # Separator
+        table.add_row("\u2500" * 15, "\u2500" * 15)  # Separator
         table.add_row("Total Detections", str(summary.total_detections))
         table.add_row("Avg Confidence", f"{summary.avg_confidence:.2f}")
         table.add_row(
@@ -244,6 +254,130 @@ class DisplayManager:
 
                 if result.detections_path:
                     output_table.add_row("Detections JSON", result.detections_path)
+                if result.annotated_frame_path:
+                    output_table.add_row("Annotated Frame", result.annotated_frame_path)
+
+                self.console.print(output_table)
+
+        self.console.print("[green bold]Done.[/green bold]")
+
+    # ------------------------------------------------------------------
+    # Tracking display (Phase 3)
+    # ------------------------------------------------------------------
+
+    def show_tracking_summary(self, summary: TrackingSummary) -> None:
+        """Display tracking summary with unique objects and trajectory stats."""
+        table_width = max(self.term_width - 4, 30) if self.term_width < 40 else None
+        table = Table(
+            title="Tracking Summary",
+            show_header=False,
+            border_style="magenta",
+            width=table_width,
+        )
+        table.add_column("Property", style="bold")
+        table.add_column("Value")
+
+        # Unique objects by class with threat-level colors.
+        if summary.by_class:
+            for class_name, count in sorted(summary.by_class.items()):
+                color = self.CLASS_COLORS.get(class_name.lower(), "white")
+                table.add_row(
+                    f"{class_name.capitalize()} (unique)",
+                    f"[{color}]{count}[/{color}]",
+                )
+
+        # Summary statistics.
+        table.add_row("\u2500" * 15, "\u2500" * 15)
+        table.add_row("Total Unique Objects", str(summary.total_unique_objects))
+        table.add_row("Total Detections", str(summary.total_detections))
+        table.add_row("Avg Track Length", f"{summary.avg_track_length:.1f} frames")
+        table.add_row("Longest Track", f"{summary.longest_track} frames")
+        table.add_row(
+            "Frames with Tracks",
+            f"{summary.frames_with_tracks}/{summary.frames_with_tracks + summary.frames_without_tracks}",
+        )
+
+        self.console.print(table)
+
+    def show_trajectories(
+        self, trajectories: list[ObjectTrajectory], top_n: int = 10
+    ) -> None:
+        """Display the top N longest trajectories."""
+        # Sort by total_frames descending.
+        sorted_trajs = sorted(trajectories, key=lambda t: t.total_frames, reverse=True)
+        top = sorted_trajs[:top_n]
+
+        if not top:
+            self.console.print("[dim]No trajectories to display.[/dim]")
+            return
+
+        table_width = max(self.term_width - 4, 30) if self.term_width < 40 else None
+        table = Table(
+            title=f"Top {len(top)} Trajectories",
+            border_style="dim",
+            width=table_width,
+        )
+        table.add_column("Object ID", style="bold")
+        table.add_column("Class")
+        table.add_column("Frames", justify="right")
+        table.add_column("Span", style="dim")
+        table.add_column("Avg Conf", justify="right")
+
+        for traj in top:
+            color = self.CLASS_COLORS.get(traj.class_name.lower(), "white")
+            table.add_row(
+                traj.object_id,
+                f"[{color}]{traj.class_name}[/{color}]",
+                str(traj.total_frames),
+                f"{traj.first_frame}\u2192{traj.last_frame}",
+                f"{traj.avg_confidence:.2f}",
+            )
+
+        self.console.print(table)
+
+    def show_tracking_results(self, result: TrackingResult) -> None:
+        """Display combined extraction + tracking results."""
+        table_width = max(self.term_width - 4, 30) if self.term_width < 40 else None
+        table = Table(
+            title="Tracking Results",
+            show_header=False,
+            border_style="green",
+            width=table_width,
+        )
+        table.add_column("Property", style="bold")
+        table.add_column("Value")
+
+        # Extraction info.
+        table.add_row("Frames Extracted", str(result.frames_extracted))
+        table.add_row("Extraction FPS", f"{result.extraction_fps:.1f}")
+        table.add_row(
+            "Source",
+            f"{result.video_info.path} ({result.video_info.duration_seconds:.1f}s)",
+        )
+        if result.sample_frame_path:
+            table.add_row("Sample Frame", result.sample_frame_path)
+
+        self.console.print(table)
+
+        # Show tracking results.
+        if result.tracking_enabled and result.tracking_summary:
+            self.console.print()
+            self.show_tracking_summary(result.tracking_summary)
+
+            # Show output file paths.
+            if result.tracking_path or result.annotated_frame_path:
+                self.console.print()
+                output_table = Table(
+                    title="Tracking Output Files",
+                    show_header=False,
+                    border_style="dim",
+                    width=table_width,
+                )
+                output_table.add_column("Type", style="bold")
+                output_table.add_column("Path")
+
+                if result.tracking_path:
+                    output_table.add_row("Tracking JSON", result.tracking_path)
                 if result.annotated_frame_path:
                     output_table.add_row("Annotated Frame", result.annotated_frame_path)
 

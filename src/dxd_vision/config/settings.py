@@ -28,11 +28,23 @@ class DetectionConfig(BaseModel):
     save_detections_json: bool = True
 
 
+class TrackingConfig(BaseModel):
+    """Configuration for multi-object tracking."""
+
+    enabled: bool = False
+    tracker: str = "bytetrack"           # "bytetrack" or "botsort"
+    max_age: int = 30                    # frames to keep lost tracks
+    device: str = "auto"                 # "auto", "cpu", "cuda", "mps"
+    save_tracking_json: bool = True
+    save_annotated_frame: bool = True
+
+
 class DXDConfig(BaseModel):
     """Top-level configuration. Grows with each phase."""
 
     extraction: ExtractionConfig = ExtractionConfig()
     detection: DetectionConfig = DetectionConfig()
+    tracking: TrackingConfig = TrackingConfig()
 
 
 def load_config(path: str = "config/default.yaml") -> DXDConfig:

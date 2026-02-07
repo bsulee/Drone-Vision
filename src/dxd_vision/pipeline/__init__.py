@@ -11,3 +11,9 @@ try:
     __all__.append("YOLODetector")
 except ImportError:
     pass  # torch/ultralytics not installed — extraction-only mode
+
+try:
+    from dxd_vision.pipeline.tracker import ObjectTracker
+    __all__.append("ObjectTracker")
+except ImportError:
+    pass  # torch/ultralytics not installed — tracking unavailable
