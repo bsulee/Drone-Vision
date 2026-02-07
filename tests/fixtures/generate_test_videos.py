@@ -32,7 +32,7 @@ def generate_video(
     Returns:
         The output path as a string.
     """
-    fourcc = cv2.VideoWriter_fourcc(*"mp4v")
+    fourcc = cv2.VideoWriter_fourcc(*"avc1")
     writer = cv2.VideoWriter(output_path, fourcc, fps, (width, height))
 
     for i in range(num_frames):
