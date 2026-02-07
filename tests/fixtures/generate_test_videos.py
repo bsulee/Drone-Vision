@@ -13,6 +13,13 @@ import cv2
 import numpy as np
 
 
+_CODEC_ATTEMPTS = [
+    ("avc1", ".mp4"),
+    ("mp4v", ".mp4"),
+    ("MJPG", ".avi"),
+]
+
+
 def generate_video(
     output_path: str,
     num_frames: int,
@@ -22,6 +29,8 @@ def generate_video(
 ) -> str:
     """Generate a synthetic test video with frame numbers burned in.
 
+    Tries multiple codecs for cross-platform compatibility.
+
     Args:
         output_path: Where to save the video file.
         num_frames: Total number of frames to generate.
@@ -30,28 +39,33 @@ def generate_video(
         height: Frame height in pixels.
 
     Returns:
-        The output path as a string.
+        The actual output path (extension may differ if codec fallback used).
     """
-    fourcc = cv2.VideoWriter_fourcc(*"mp4v")
-    writer = cv2.VideoWriter(output_path, fourcc, fps, (width, height))
+    for codec, ext in _CODEC_ATTEMPTS:
+        actual_path = output_path.rsplit(".", 1)[0] + ext
+        fourcc = cv2.VideoWriter_fourcc(*codec)
+        writer = cv2.VideoWriter(actual_path, fourcc, fps, (width, height))
+        if not writer.isOpened():
+            writer.release()
+            continue
 
-    for i in range(num_frames):
-        frame = np.zeros((height, width, 3), dtype=np.uint8)
-        # Burn in frame number for visual verification.
-        cv2.putText(
-            frame, f"Frame {i}", (50, height // 2),
-            cv2.FONT_HERSHEY_SIMPLEX, 2, (255, 255, 255), 3,
-        )
-        # Add a timestamp line for additional context.
-        timestamp_ms = (i / fps) * 1000
-        cv2.putText(
-            frame, f"{timestamp_ms:.0f}ms", (50, height // 2 + 60),
-            cv2.FONT_HERSHEY_SIMPLEX, 1, (200, 200, 200), 2,
-        )
-        writer.write(frame)
+        for i in range(num_frames):
+            frame = np.zeros((height, width, 3), dtype=np.uint8)
+            cv2.putText(
+                frame, f"Frame {i}", (50, height // 2),
+                cv2.FONT_HERSHEY_SIMPLEX, 2, (255, 255, 255), 3,
+            )
+            timestamp_ms = (i / fps) * 1000
+            cv2.putText(
+                frame, f"{timestamp_ms:.0f}ms", (50, height // 2 + 60),
+                cv2.FONT_HERSHEY_SIMPLEX, 1, (200, 200, 200), 2,
+            )
+            writer.write(frame)
 
-    writer.release()
-    return output_path
+        writer.release()
+        return actual_path
+
+    raise RuntimeError(f"No working video codec found for {output_path}")
 
 
 def main():

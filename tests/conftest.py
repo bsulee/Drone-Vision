@@ -6,20 +6,47 @@ import pytest
 
 from dxd_vision.config.settings import DXDConfig, ExtractionConfig
 
+# Preferred codecs in order — mp4v fails on macOS, avc1/MJPG work.
+_CODEC_ATTEMPTS = [
+    ("avc1", ".mp4"),
+    ("mp4v", ".mp4"),
+    ("MJPG", ".avi"),
+]
+
 
 def _create_test_video(path, num_frames: int, fps: float = 30.0, width: int = 640, height: int = 480):
-    """Helper to create a synthetic test video with frame numbers burned in."""
-    fourcc = cv2.VideoWriter_fourcc(*"mp4v")
-    writer = cv2.VideoWriter(str(path), fourcc, fps, (width, height))
-    for i in range(num_frames):
-        frame = np.zeros((height, width, 3), dtype=np.uint8)
-        cv2.putText(
-            frame, f"Frame {i}", (50, 240),
-            cv2.FONT_HERSHEY_SIMPLEX, 2, (255, 255, 255), 3,
-        )
-        writer.write(frame)
-    writer.release()
-    return str(path)
+    """Helper to create a synthetic test video with frame numbers burned in.
+
+    Tries multiple codecs for cross-platform compatibility. Falls back from
+    avc1 → mp4v → MJPG/avi until one works.
+    """
+    path = str(path)
+
+    for codec, ext in _CODEC_ATTEMPTS:
+        # Rewrite extension to match the working codec's container
+        actual_path = str(path).rsplit(".", 1)[0] + ext
+        fourcc = cv2.VideoWriter_fourcc(*codec)
+        writer = cv2.VideoWriter(actual_path, fourcc, fps, (width, height))
+        if not writer.isOpened():
+            writer.release()
+            continue
+
+        for i in range(num_frames):
+            frame = np.zeros((height, width, 3), dtype=np.uint8)
+            cv2.putText(
+                frame, f"Frame {i}", (50, height // 2),
+                cv2.FONT_HERSHEY_SIMPLEX, 2, (255, 255, 255), 3,
+            )
+            timestamp_ms = (i / fps) * 1000
+            cv2.putText(
+                frame, f"{timestamp_ms:.0f}ms", (50, height // 2 + 60),
+                cv2.FONT_HERSHEY_SIMPLEX, 1, (200, 200, 200), 2,
+            )
+            writer.write(frame)
+        writer.release()
+        return actual_path
+
+    raise RuntimeError(f"No working video codec found for writing test video to {path}")
 
 
 @pytest.fixture
