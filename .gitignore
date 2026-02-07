@@ -28,3 +28,7 @@ output/
 
 .env
 *.log
+
+# Model weights and test images
+*.pt
+*.jpg
