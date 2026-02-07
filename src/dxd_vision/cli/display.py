@@ -160,9 +160,10 @@ class DisplayManager:
                     class_name.capitalize(),
                     f"[{color}]{count}[/{color}]"
                 )
+            # Add separator only if we showed class rows.
+            table.add_row("\u2500" * 15, "\u2500" * 15)
 
         # Summary statistics.
-        table.add_row("\u2500" * 15, "\u2500" * 15)  # Separator
         table.add_row("Total Detections", str(summary.total_detections))
         table.add_row("Avg Confidence", f"{summary.avg_confidence:.2f}")
         table.add_row(
@@ -285,9 +286,10 @@ class DisplayManager:
                     f"{class_name.capitalize()} (unique)",
                     f"[{color}]{count}[/{color}]",
                 )
+            # Add separator only if we showed class rows.
+            table.add_row("\u2500" * 15, "\u2500" * 15)
 
         # Summary statistics.
-        table.add_row("\u2500" * 15, "\u2500" * 15)
         table.add_row("Total Unique Objects", str(summary.total_unique_objects))
         table.add_row("Total Detections", str(summary.total_detections))
         table.add_row("Avg Track Length", f"{summary.avg_track_length:.1f} frames")

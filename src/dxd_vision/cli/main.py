@@ -149,8 +149,14 @@ def main(
         # --track auto-enables detection (tracking implies detection)
         cfg.detection.enabled = True
     if tracker is not None:
+        if not track:
+            click.echo("Error: --tracker requires --track to be enabled", err=True)
+            sys.exit(1)
         cfg.tracking.tracker = tracker
     if max_age is not None:
+        if not track:
+            click.echo("Error: --max-age requires --track to be enabled", err=True)
+            sys.exit(1)
         if max_age <= 0:
             click.echo(f"Error: --max-age must be positive (got {max_age})", err=True)
             sys.exit(1)
