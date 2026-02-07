@@ -43,8 +43,40 @@ from dxd_vision.utils.logging import setup_logging
     is_flag=True,
     help="Enable debug logging.",
 )
+@click.option(
+    "--detect", "-d",
+    is_flag=True,
+    help="Enable YOLO object detection.",
+)
+@click.option(
+    "--model", "-m",
+    default=None,
+    type=click.Path(resolve_path=True),
+    help="YOLO model path (overrides config).",
+)
+@click.option(
+    "--confidence",
+    default=None,
+    type=float,
+    help="Detection confidence threshold 0.0-1.0 (overrides config).",
+)
+@click.option(
+    "--classes",
+    default=None,
+    help="Comma-separated target classes (e.g., 'person,vehicle').",
+)
 @click.version_option(version=__version__, prog_name="dxd-vision")
-def main(input: str, config: str, output: Optional[str], fps: Optional[float], verbose: bool) -> None:
+def main(
+    input: str,
+    config: str,
+    output: Optional[str],
+    fps: Optional[float],
+    verbose: bool,
+    detect: bool,
+    model: Optional[str],
+    confidence: Optional[float],
+    classes: Optional[str],
+) -> None:
     """DXD Vision Engine -- AI-powered video analysis."""
     logger = setup_logging(verbose=verbose)
 
@@ -61,7 +93,7 @@ def main(input: str, config: str, output: Optional[str], fps: Optional[float], v
         click.echo(f"Error: Failed to load config '{config}': {exc}", err=True)
         sys.exit(1)
 
-    # Validate and apply CLI overrides.
+    # Validate and apply extraction CLI overrides.
     if fps is not None:
         if fps <= 0:
             click.echo(f"Error: FPS must be positive (got {fps})", err=True)
@@ -69,6 +101,27 @@ def main(input: str, config: str, output: Optional[str], fps: Optional[float], v
         cfg.extraction.target_fps = fps
     if output is not None:
         cfg.extraction.output_dir = output
+
+    # Validate and apply detection CLI overrides.
+    if detect:
+        cfg.detection.enabled = True
+    if model is not None:
+        model_path = Path(model)
+        if not model_path.exists():
+            click.echo(f"Error: Model file not found: '{model}'", err=True)
+            sys.exit(1)
+        cfg.detection.model_path = model
+    if confidence is not None:
+        if not (0.0 <= confidence <= 1.0):
+            click.echo(f"Error: Confidence must be between 0.0 and 1.0 (got {confidence})", err=True)
+            sys.exit(1)
+        cfg.detection.confidence_threshold = confidence
+    if classes is not None:
+        parsed_classes = [c.strip() for c in classes.split(",") if c.strip()]
+        if not parsed_classes:
+            click.echo("Error: --classes must contain at least one class name", err=True)
+            sys.exit(1)
+        cfg.detection.target_classes = parsed_classes
 
     # Ensure output directory exists and is writable.
     output_dir = Path(cfg.extraction.output_dir)
@@ -94,7 +147,18 @@ def main(input: str, config: str, output: Optional[str], fps: Optional[float], v
     logger.info("DXD Vision Engine v%s", __version__)
     logger.info("Input: %s", input_path)
     logger.info("Target FPS: %s", cfg.extraction.target_fps)
-    logger.debug("Config: %s", cfg.model_dump())
+
+    # Detection logging.
+    if cfg.detection.enabled:
+        logger.info("Detection: ENABLED")
+        logger.info("Model: %s", cfg.detection.model_path)
+        logger.info("Confidence threshold: %.2f", cfg.detection.confidence_threshold)
+        logger.info("Target classes: %s", ", ".join(cfg.detection.target_classes))
+        logger.debug("Detection device: %s", cfg.detection.device)
+    else:
+        logger.info("Detection: DISABLED (extraction only)")
+
+    logger.debug("Full config: %s", cfg.model_dump())
 
     # Import display here to allow --help to work before dependencies are installed.
     from dxd_vision.cli.display import DisplayManager
@@ -115,7 +179,20 @@ def main(input: str, config: str, output: Optional[str], fps: Optional[float], v
         pipeline = VisionPipeline(cfg)
         result = pipeline.process_video(input)
         display.show_results(result)
+
+        # Log completion summary.
         logger.info("Extraction complete: %d frames", result.frames_extracted)
+        if cfg.detection.enabled and hasattr(result, 'detection_summary') and result.detection_summary:
+            summary = result.detection_summary
+            logger.info(
+                "Detection complete: %d objects in %d/%d frames",
+                summary.total_detections,
+                summary.frames_with_detections,
+                result.frames_extracted,
+            )
+            logger.info("Avg confidence: %.2f", summary.avg_confidence)
+            if summary.by_class:
+                logger.info("Detections by class: %s", summary.by_class)
     except FileNotFoundError as exc:
         display.show_error(str(exc))
         sys.exit(1)
