@@ -1,5 +1,7 @@
 """Progress display and results formatting with Rich."""
 
+from __future__ import annotations
+
 from rich.console import Console
 from rich.panel import Panel
 from rich.progress import (
