@@ -1,0 +1,4 @@
+extraction:
+  target_fps: 5.0
+  output_dir: "./output"
+  save_sample_frame: true

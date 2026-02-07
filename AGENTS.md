@@ -1,40 +1,22 @@
-# Agent Instructions
+# Agent Instructions for DXD Vision Engine
 
-This project uses **bd** (beads) for issue tracking. Run `bd onboard` to get started.
+## Workflow
+1. Check work: `bd ready`
+2. Claim work: `bd update <id> --status in_progress`
+3. While working: Update frequently with `bd update <id> --comment "status"`
+4. When done: `bd close <id> --reason "what you did"`
+5. End session: "Land the plane" (see below)
 
-## Quick Reference
+## Landing the Plane
+At session end:
+1. Commit/stash all changes
+2. Update all beads with current status
+3. File new beads for discovered work
+4. Run `bd ready` and generate next session prompt
+5. Output: "Next session: Continue bd-XYZ - [context]"
 
-```bash
-bd ready              # Find available work
-bd show <id>          # View issue details
-bd update <id> --status in_progress  # Claim work
-bd close <id>         # Complete work
-bd sync               # Sync with git
-```
-
-## Landing the Plane (Session Completion)
-
-**When ending a work session**, you MUST complete ALL steps below. Work is NOT complete until `git push` succeeds.
-
-**MANDATORY WORKFLOW:**
-
-1. **File issues for remaining work** - Create issues for anything that needs follow-up
-2. **Run quality gates** (if code changed) - Tests, linters, builds
-3. **Update issue status** - Close finished work, update in-progress items
-4. **PUSH TO REMOTE** - This is MANDATORY:
-   ```bash
-   git pull --rebase
-   bd sync
-   git push
-   git status  # MUST show "up to date with origin"
-   ```
-5. **Clean up** - Clear stashes, prune remote branches
-6. **Verify** - All changes committed AND pushed
-7. **Hand off** - Provide context for next session
-
-**CRITICAL RULES:**
-- Work is NOT complete until `git push` succeeds
-- NEVER stop before pushing - that leaves work stranded locally
-- NEVER say "ready to push when you are" - YOU must push
-- If push fails, resolve and retry until it succeeds
-
+## Rules
+- Never work without a bead
+- Keep descriptions actionable
+- Update beads often
+- Check for blockers

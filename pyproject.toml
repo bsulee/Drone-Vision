@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "dxd-vision-engine"
+version = "0.1.0"
+description = "AI threat detection system for Deus X Defense"
+requires-python = ">=3.10"
+dependencies = [
+    "opencv-python>=4.8",
+    "pydantic>=2.0",
+    "pyyaml>=6.0",
+    "rich>=13.0",
+    "click>=8.1",
+    "numpy>=1.24",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4",
+]
+
+[project.scripts]
+dxd-vision = "dxd_vision.cli.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
