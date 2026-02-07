@@ -31,6 +31,23 @@ class FrameExtractor:
         """
         source_fps = self._video_info.fps
         target_fps = min(self._config.target_fps, source_fps)
+
+        # Special case: extracting at source FPS means yield every frame
+        if abs(target_fps - source_fps) < 0.01:
+            for frame_number, image in self._reader.read_frames():
+                timestamp_ms = (frame_number / source_fps) * 1000.0
+                metadata = FrameMetadata(
+                    frame_number=frame_number,
+                    timestamp_ms=timestamp_ms,
+                    source_fps=source_fps,
+                    extraction_fps=target_fps,
+                    width=self._video_info.width,
+                    height=self._video_info.height,
+                    source_path=self._video_info.path,
+                )
+                yield FrameData(image=image, metadata=metadata)
+            return
+
         target_interval_ms = 1000.0 / target_fps
         next_target_ms = 0.0
 
@@ -48,7 +65,7 @@ class FrameExtractor:
                     source_path=self._video_info.path,
                 )
                 yield FrameData(image=image, metadata=metadata)
-                next_target_ms = timestamp_ms + target_interval_ms
+                next_target_ms += target_interval_ms
 
     def extract_all(self) -> ExtractionResult:
         """Full extraction: extract frames, optionally save sample, return result."""
