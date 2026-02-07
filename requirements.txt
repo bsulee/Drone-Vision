@@ -5,3 +5,4 @@ rich>=13.0
 click>=8.1
 pytest>=7.4
 numpy>=1.24
+ultralytics>=8.0
