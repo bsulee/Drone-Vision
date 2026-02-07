@@ -9,7 +9,7 @@ from dxd_vision.config.settings import DXDConfig, ExtractionConfig
 
 def _create_test_video(path, num_frames: int, fps: float = 30.0, width: int = 640, height: int = 480):
     """Helper to create a synthetic test video with frame numbers burned in."""
-    fourcc = cv2.VideoWriter_fourcc(*"mp4v")
+    fourcc = cv2.VideoWriter_fourcc(*"avc1")
     writer = cv2.VideoWriter(str(path), fourcc, fps, (width, height))
     for i in range(num_frames):
         frame = np.zeros((height, width, 3), dtype=np.uint8)
