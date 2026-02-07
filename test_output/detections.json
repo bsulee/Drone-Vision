@@ -1,0 +1,2102 @@
+[
+  {
+    "frame_number": 0,
+    "timestamp_ms": 0.0,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9200000166893005,
+        "bbox": {
+          "x": 50,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 0,
+        "timestamp_ms": 0.0
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8500000238418579,
+        "bbox": {
+          "x": 300,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 0,
+        "timestamp_ms": 0.0
+      },
+      {
+        "class_name": "vehicle",
+        "confidence": 0.7799999713897705,
+        "bbox": {
+          "x": 400,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        "frame_number": 0,
+        "timestamp_ms": 0.0
+      }
+    ]
+  },
+  {
+    "frame_number": 7,
+    "timestamp_ms": 233.33331849840047,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9200000166893005,
+        "bbox": {
+          "x": 50,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 7,
+        "timestamp_ms": 233.33331849840047
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8500000238418579,
+        "bbox": {
+          "x": 300,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 7,
+        "timestamp_ms": 233.33331849840047
+      },
+      {
+        "class_name": "vehicle",
+        "confidence": 0.7799999713897705,
+        "bbox": {
+          "x": 400,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        "frame_number": 7,
+        "timestamp_ms": 233.33331849840047
+      }
+    ]
+  },
+  {
+    "frame_number": 13,
+    "timestamp_ms": 433.3333057827437,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9200000166893005,
+        "bbox": {
+          "x": 50,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 13,
+        "timestamp_ms": 433.3333057827437
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8500000238418579,
+        "bbox": {
+          "x": 300,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 13,
+        "timestamp_ms": 433.3333057827437
+      },
+      {
+        "class_name": "vehicle",
+        "confidence": 0.7799999713897705,
+        "bbox": {
+          "x": 400,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        "frame_number": 13,
+        "timestamp_ms": 433.3333057827437
+      }
+    ]
+  },
+  {
+    "frame_number": 19,
+    "timestamp_ms": 633.333293067087,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9200000166893005,
+        "bbox": {
+          "x": 50,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 19,
+        "timestamp_ms": 633.333293067087
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8500000238418579,
+        "bbox": {
+          "x": 300,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 19,
+        "timestamp_ms": 633.333293067087
+      },
+      {
+        "class_name": "vehicle",
+        "confidence": 0.7799999713897705,
+        "bbox": {
+          "x": 400,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        "frame_number": 19,
+        "timestamp_ms": 633.333293067087
+      }
+    ]
+  },
+  {
+    "frame_number": 25,
+    "timestamp_ms": 833.3332803514303,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9200000166893005,
+        "bbox": {
+          "x": 50,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 25,
+        "timestamp_ms": 833.3332803514303
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8500000238418579,
+        "bbox": {
+          "x": 300,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 25,
+        "timestamp_ms": 833.3332803514303
+      },
+      {
+        "class_name": "vehicle",
+        "confidence": 0.7799999713897705,
+        "bbox": {
+          "x": 400,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        "frame_number": 25,
+        "timestamp_ms": 833.3332803514303
+      }
+    ]
+  },
+  {
+    "frame_number": 31,
+    "timestamp_ms": 1033.3332676357736,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9200000166893005,
+        "bbox": {
+          "x": 50,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 31,
+        "timestamp_ms": 1033.3332676357736
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8500000238418579,
+        "bbox": {
+          "x": 300,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 31,
+        "timestamp_ms": 1033.3332676357736
+      },
+      {
+        "class_name": "vehicle",
+        "confidence": 0.7799999713897705,
+        "bbox": {
+          "x": 400,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        "frame_number": 31,
+        "timestamp_ms": 1033.3332676357736
+      }
+    ]
+  },
+  {
+    "frame_number": 37,
+    "timestamp_ms": 1233.3332549201168,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9200000166893005,
+        "bbox": {
+          "x": 50,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 37,
+        "timestamp_ms": 1233.3332549201168
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8500000238418579,
+        "bbox": {
+          "x": 300,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 37,
+        "timestamp_ms": 1233.3332549201168
+      },
+      {
+        "class_name": "vehicle",
+        "confidence": 0.7799999713897705,
+        "bbox": {
+          "x": 400,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        "frame_number": 37,
+        "timestamp_ms": 1233.3332549201168
+      }
+    ]
+  },
+  {
+    "frame_number": 43,
+    "timestamp_ms": 1433.33324220446,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9200000166893005,
+        "bbox": {
+          "x": 50,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 43,
+        "timestamp_ms": 1433.33324220446
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8500000238418579,
+        "bbox": {
+          "x": 300,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 43,
+        "timestamp_ms": 1433.33324220446
+      },
+      {
+        "class_name": "vehicle",
+        "confidence": 0.7799999713897705,
+        "bbox": {
+          "x": 400,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        "frame_number": 43,
+        "timestamp_ms": 1433.33324220446
+      }
+    ]
+  },
+  {
+    "frame_number": 49,
+    "timestamp_ms": 1633.3332294888032,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9200000166893005,
+        "bbox": {
+          "x": 50,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 49,
+        "timestamp_ms": 1633.3332294888032
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8500000238418579,
+        "bbox": {
+          "x": 300,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 49,
+        "timestamp_ms": 1633.3332294888032
+      },
+      {
+        "class_name": "vehicle",
+        "confidence": 0.7799999713897705,
+        "bbox": {
+          "x": 400,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        "frame_number": 49,
+        "timestamp_ms": 1633.3332294888032
+      }
+    ]
+  },
+  {
+    "frame_number": 55,
+    "timestamp_ms": 1833.3332167731464,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9200000166893005,
+        "bbox": {
+          "x": 50,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 55,
+        "timestamp_ms": 1833.3332167731464
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8500000238418579,
+        "bbox": {
+          "x": 300,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 55,
+        "timestamp_ms": 1833.3332167731464
+      },
+      {
+        "class_name": "vehicle",
+        "confidence": 0.7799999713897705,
+        "bbox": {
+          "x": 400,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        "frame_number": 55,
+        "timestamp_ms": 1833.3332167731464
+      }
+    ]
+  },
+  {
+    "frame_number": 61,
+    "timestamp_ms": 2033.3332040574899,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9200000166893005,
+        "bbox": {
+          "x": 50,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 61,
+        "timestamp_ms": 2033.3332040574899
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8500000238418579,
+        "bbox": {
+          "x": 300,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 61,
+        "timestamp_ms": 2033.3332040574899
+      },
+      {
+        "class_name": "vehicle",
+        "confidence": 0.7799999713897705,
+        "bbox": {
+          "x": 400,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        "frame_number": 61,
+        "timestamp_ms": 2033.3332040574899
+      }
+    ]
+  },
+  {
+    "frame_number": 67,
+    "timestamp_ms": 2233.333191341833,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9200000166893005,
+        "bbox": {
+          "x": 50,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 67,
+        "timestamp_ms": 2233.333191341833
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8500000238418579,
+        "bbox": {
+          "x": 300,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 67,
+        "timestamp_ms": 2233.333191341833
+      },
+      {
+        "class_name": "vehicle",
+        "confidence": 0.7799999713897705,
+        "bbox": {
+          "x": 400,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        "frame_number": 67,
+        "timestamp_ms": 2233.333191341833
+      }
+    ]
+  },
+  {
+    "frame_number": 73,
+    "timestamp_ms": 2433.333178626176,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9200000166893005,
+        "bbox": {
+          "x": 50,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 73,
+        "timestamp_ms": 2433.333178626176
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8500000238418579,
+        "bbox": {
+          "x": 300,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 73,
+        "timestamp_ms": 2433.333178626176
+      },
+      {
+        "class_name": "vehicle",
+        "confidence": 0.7799999713897705,
+        "bbox": {
+          "x": 400,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        "frame_number": 73,
+        "timestamp_ms": 2433.333178626176
+      }
+    ]
+  },
+  {
+    "frame_number": 79,
+    "timestamp_ms": 2633.3331659105193,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9200000166893005,
+        "bbox": {
+          "x": 50,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 79,
+        "timestamp_ms": 2633.3331659105193
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8500000238418579,
+        "bbox": {
+          "x": 300,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 79,
+        "timestamp_ms": 2633.3331659105193
+      },
+      {
+        "class_name": "vehicle",
+        "confidence": 0.7799999713897705,
+        "bbox": {
+          "x": 400,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        "frame_number": 79,
+        "timestamp_ms": 2633.3331659105193
+      }
+    ]
+  },
+  {
+    "frame_number": 85,
+    "timestamp_ms": 2833.3331531948625,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9200000166893005,
+        "bbox": {
+          "x": 50,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 85,
+        "timestamp_ms": 2833.3331531948625
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8500000238418579,
+        "bbox": {
+          "x": 300,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 85,
+        "timestamp_ms": 2833.3331531948625
+      },
+      {
+        "class_name": "vehicle",
+        "confidence": 0.7799999713897705,
+        "bbox": {
+          "x": 400,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        "frame_number": 85,
+        "timestamp_ms": 2833.3331531948625
+      }
+    ]
+  },
+  {
+    "frame_number": 91,
+    "timestamp_ms": 3033.3331404792057,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9200000166893005,
+        "bbox": {
+          "x": 50,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 91,
+        "timestamp_ms": 3033.3331404792057
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8500000238418579,
+        "bbox": {
+          "x": 300,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 91,
+        "timestamp_ms": 3033.3331404792057
+      },
+      {
+        "class_name": "vehicle",
+        "confidence": 0.7799999713897705,
+        "bbox": {
+          "x": 400,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        "frame_number": 91,
+        "timestamp_ms": 3033.3331404792057
+      }
+    ]
+  },
+  {
+    "frame_number": 97,
+    "timestamp_ms": 3233.3331277635493,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9200000166893005,
+        "bbox": {
+          "x": 50,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 97,
+        "timestamp_ms": 3233.3331277635493
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8500000238418579,
+        "bbox": {
+          "x": 300,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 97,
+        "timestamp_ms": 3233.3331277635493
+      },
+      {
+        "class_name": "vehicle",
+        "confidence": 0.7799999713897705,
+        "bbox": {
+          "x": 400,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        "frame_number": 97,
+        "timestamp_ms": 3233.3331277635493
+      }
+    ]
+  },
+  {
+    "frame_number": 103,
+    "timestamp_ms": 3433.3331150478925,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9200000166893005,
+        "bbox": {
+          "x": 50,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 103,
+        "timestamp_ms": 3433.3331150478925
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8500000238418579,
+        "bbox": {
+          "x": 300,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 103,
+        "timestamp_ms": 3433.3331150478925
+      },
+      {
+        "class_name": "vehicle",
+        "confidence": 0.7799999713897705,
+        "bbox": {
+          "x": 400,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        "frame_number": 103,
+        "timestamp_ms": 3433.3331150478925
+      }
+    ]
+  },
+  {
+    "frame_number": 109,
+    "timestamp_ms": 3633.3331023322357,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9200000166893005,
+        "bbox": {
+          "x": 50,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 109,
+        "timestamp_ms": 3633.3331023322357
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8500000238418579,
+        "bbox": {
+          "x": 300,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 109,
+        "timestamp_ms": 3633.3331023322357
+      },
+      {
+        "class_name": "vehicle",
+        "confidence": 0.7799999713897705,
+        "bbox": {
+          "x": 400,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        "frame_number": 109,
+        "timestamp_ms": 3633.3331023322357
+      }
+    ]
+  },
+  {
+    "frame_number": 115,
+    "timestamp_ms": 3833.333089616579,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9200000166893005,
+        "bbox": {
+          "x": 50,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 115,
+        "timestamp_ms": 3833.333089616579
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8500000238418579,
+        "bbox": {
+          "x": 300,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 115,
+        "timestamp_ms": 3833.333089616579
+      },
+      {
+        "class_name": "vehicle",
+        "confidence": 0.7799999713897705,
+        "bbox": {
+          "x": 400,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        "frame_number": 115,
+        "timestamp_ms": 3833.333089616579
+      }
+    ]
+  },
+  {
+    "frame_number": 121,
+    "timestamp_ms": 4033.3330769009217,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9200000166893005,
+        "bbox": {
+          "x": 50,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 121,
+        "timestamp_ms": 4033.3330769009217
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8500000238418579,
+        "bbox": {
+          "x": 300,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 121,
+        "timestamp_ms": 4033.3330769009217
+      },
+      {
+        "class_name": "vehicle",
+        "confidence": 0.7799999713897705,
+        "bbox": {
+          "x": 400,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        "frame_number": 121,
+        "timestamp_ms": 4033.3330769009217
+      }
+    ]
+  },
+  {
+    "frame_number": 127,
+    "timestamp_ms": 4233.333064185266,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9200000166893005,
+        "bbox": {
+          "x": 50,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 127,
+        "timestamp_ms": 4233.333064185266
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8500000238418579,
+        "bbox": {
+          "x": 300,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 127,
+        "timestamp_ms": 4233.333064185266
+      },
+      {
+        "class_name": "vehicle",
+        "confidence": 0.7799999713897705,
+        "bbox": {
+          "x": 400,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        "frame_number": 127,
+        "timestamp_ms": 4233.333064185266
+      }
+    ]
+  },
+  {
+    "frame_number": 133,
+    "timestamp_ms": 4433.333051469609,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9200000166893005,
+        "bbox": {
+          "x": 50,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 133,
+        "timestamp_ms": 4433.333051469609
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8500000238418579,
+        "bbox": {
+          "x": 300,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 133,
+        "timestamp_ms": 4433.333051469609
+      },
+      {
+        "class_name": "vehicle",
+        "confidence": 0.7799999713897705,
+        "bbox": {
+          "x": 400,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        "frame_number": 133,
+        "timestamp_ms": 4433.333051469609
+      }
+    ]
+  },
+  {
+    "frame_number": 139,
+    "timestamp_ms": 4633.333038753953,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9200000166893005,
+        "bbox": {
+          "x": 50,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 139,
+        "timestamp_ms": 4633.333038753953
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8500000238418579,
+        "bbox": {
+          "x": 300,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 139,
+        "timestamp_ms": 4633.333038753953
+      },
+      {
+        "class_name": "vehicle",
+        "confidence": 0.7799999713897705,
+        "bbox": {
+          "x": 400,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        "frame_number": 139,
+        "timestamp_ms": 4633.333038753953
+      }
+    ]
+  },
+  {
+    "frame_number": 145,
+    "timestamp_ms": 4833.333026038295,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9200000166893005,
+        "bbox": {
+          "x": 50,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 145,
+        "timestamp_ms": 4833.333026038295
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8500000238418579,
+        "bbox": {
+          "x": 300,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 145,
+        "timestamp_ms": 4833.333026038295
+      },
+      {
+        "class_name": "vehicle",
+        "confidence": 0.7799999713897705,
+        "bbox": {
+          "x": 400,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        "frame_number": 145,
+        "timestamp_ms": 4833.333026038295
+      }
+    ]
+  },
+  {
+    "frame_number": 151,
+    "timestamp_ms": 5033.333013322639,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9200000166893005,
+        "bbox": {
+          "x": 50,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 151,
+        "timestamp_ms": 5033.333013322639
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8500000238418579,
+        "bbox": {
+          "x": 300,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 151,
+        "timestamp_ms": 5033.333013322639
+      },
+      {
+        "class_name": "vehicle",
+        "confidence": 0.7799999713897705,
+        "bbox": {
+          "x": 400,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        "frame_number": 151,
+        "timestamp_ms": 5033.333013322639
+      }
+    ]
+  },
+  {
+    "frame_number": 157,
+    "timestamp_ms": 5233.333000606982,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9200000166893005,
+        "bbox": {
+          "x": 50,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 157,
+        "timestamp_ms": 5233.333000606982
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8500000238418579,
+        "bbox": {
+          "x": 300,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 157,
+        "timestamp_ms": 5233.333000606982
+      },
+      {
+        "class_name": "vehicle",
+        "confidence": 0.7799999713897705,
+        "bbox": {
+          "x": 400,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        "frame_number": 157,
+        "timestamp_ms": 5233.333000606982
+      }
+    ]
+  },
+  {
+    "frame_number": 163,
+    "timestamp_ms": 5433.3329878913255,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9200000166893005,
+        "bbox": {
+          "x": 50,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 163,
+        "timestamp_ms": 5433.3329878913255
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8500000238418579,
+        "bbox": {
+          "x": 300,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 163,
+        "timestamp_ms": 5433.3329878913255
+      },
+      {
+        "class_name": "vehicle",
+        "confidence": 0.7799999713897705,
+        "bbox": {
+          "x": 400,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        "frame_number": 163,
+        "timestamp_ms": 5433.3329878913255
+      }
+    ]
+  },
+  {
+    "frame_number": 169,
+    "timestamp_ms": 5633.332975175668,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9200000166893005,
+        "bbox": {
+          "x": 50,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 169,
+        "timestamp_ms": 5633.332975175668
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8500000238418579,
+        "bbox": {
+          "x": 300,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 169,
+        "timestamp_ms": 5633.332975175668
+      },
+      {
+        "class_name": "vehicle",
+        "confidence": 0.7799999713897705,
+        "bbox": {
+          "x": 400,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        "frame_number": 169,
+        "timestamp_ms": 5633.332975175668
+      }
+    ]
+  },
+  {
+    "frame_number": 175,
+    "timestamp_ms": 5833.332962460012,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9200000166893005,
+        "bbox": {
+          "x": 50,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 175,
+        "timestamp_ms": 5833.332962460012
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8500000238418579,
+        "bbox": {
+          "x": 300,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 175,
+        "timestamp_ms": 5833.332962460012
+      },
+      {
+        "class_name": "vehicle",
+        "confidence": 0.7799999713897705,
+        "bbox": {
+          "x": 400,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        "frame_number": 175,
+        "timestamp_ms": 5833.332962460012
+      }
+    ]
+  },
+  {
+    "frame_number": 181,
+    "timestamp_ms": 6033.332949744355,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9200000166893005,
+        "bbox": {
+          "x": 50,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 181,
+        "timestamp_ms": 6033.332949744355
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8500000238418579,
+        "bbox": {
+          "x": 300,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 181,
+        "timestamp_ms": 6033.332949744355
+      },
+      {
+        "class_name": "vehicle",
+        "confidence": 0.7799999713897705,
+        "bbox": {
+          "x": 400,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        "frame_number": 181,
+        "timestamp_ms": 6033.332949744355
+      }
+    ]
+  },
+  {
+    "frame_number": 187,
+    "timestamp_ms": 6233.332937028698,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9200000166893005,
+        "bbox": {
+          "x": 50,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 187,
+        "timestamp_ms": 6233.332937028698
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8500000238418579,
+        "bbox": {
+          "x": 300,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 187,
+        "timestamp_ms": 6233.332937028698
+      },
+      {
+        "class_name": "vehicle",
+        "confidence": 0.7799999713897705,
+        "bbox": {
+          "x": 400,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        "frame_number": 187,
+        "timestamp_ms": 6233.332937028698
+      }
+    ]
+  },
+  {
+    "frame_number": 193,
+    "timestamp_ms": 6433.332924313041,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9200000166893005,
+        "bbox": {
+          "x": 50,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 193,
+        "timestamp_ms": 6433.332924313041
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8500000238418579,
+        "bbox": {
+          "x": 300,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 193,
+        "timestamp_ms": 6433.332924313041
+      },
+      {
+        "class_name": "vehicle",
+        "confidence": 0.7799999713897705,
+        "bbox": {
+          "x": 400,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        "frame_number": 193,
+        "timestamp_ms": 6433.332924313041
+      }
+    ]
+  },
+  {
+    "frame_number": 199,
+    "timestamp_ms": 6633.332911597385,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9200000166893005,
+        "bbox": {
+          "x": 50,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 199,
+        "timestamp_ms": 6633.332911597385
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8500000238418579,
+        "bbox": {
+          "x": 300,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 199,
+        "timestamp_ms": 6633.332911597385
+      },
+      {
+        "class_name": "vehicle",
+        "confidence": 0.7799999713897705,
+        "bbox": {
+          "x": 400,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        "frame_number": 199,
+        "timestamp_ms": 6633.332911597385
+      }
+    ]
+  },
+  {
+    "frame_number": 205,
+    "timestamp_ms": 6833.3328988817275,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9200000166893005,
+        "bbox": {
+          "x": 50,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 205,
+        "timestamp_ms": 6833.3328988817275
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8500000238418579,
+        "bbox": {
+          "x": 300,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 205,
+        "timestamp_ms": 6833.3328988817275
+      },
+      {
+        "class_name": "vehicle",
+        "confidence": 0.7799999713897705,
+        "bbox": {
+          "x": 400,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        "frame_number": 205,
+        "timestamp_ms": 6833.3328988817275
+      }
+    ]
+  },
+  {
+    "frame_number": 211,
+    "timestamp_ms": 7033.332886166071,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9200000166893005,
+        "bbox": {
+          "x": 50,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 211,
+        "timestamp_ms": 7033.332886166071
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8500000238418579,
+        "bbox": {
+          "x": 300,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 211,
+        "timestamp_ms": 7033.332886166071
+      },
+      {
+        "class_name": "vehicle",
+        "confidence": 0.7799999713897705,
+        "bbox": {
+          "x": 400,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        "frame_number": 211,
+        "timestamp_ms": 7033.332886166071
+      }
+    ]
+  },
+  {
+    "frame_number": 217,
+    "timestamp_ms": 7233.332873450414,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9200000166893005,
+        "bbox": {
+          "x": 50,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 217,
+        "timestamp_ms": 7233.332873450414
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8500000238418579,
+        "bbox": {
+          "x": 300,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 217,
+        "timestamp_ms": 7233.332873450414
+      },
+      {
+        "class_name": "vehicle",
+        "confidence": 0.7799999713897705,
+        "bbox": {
+          "x": 400,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        "frame_number": 217,
+        "timestamp_ms": 7233.332873450414
+      }
+    ]
+  },
+  {
+    "frame_number": 223,
+    "timestamp_ms": 7433.332860734758,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9200000166893005,
+        "bbox": {
+          "x": 50,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 223,
+        "timestamp_ms": 7433.332860734758
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8500000238418579,
+        "bbox": {
+          "x": 300,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 223,
+        "timestamp_ms": 7433.332860734758
+      },
+      {
+        "class_name": "vehicle",
+        "confidence": 0.7799999713897705,
+        "bbox": {
+          "x": 400,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        "frame_number": 223,
+        "timestamp_ms": 7433.332860734758
+      }
+    ]
+  },
+  {
+    "frame_number": 229,
+    "timestamp_ms": 7633.332848019101,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9200000166893005,
+        "bbox": {
+          "x": 50,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 229,
+        "timestamp_ms": 7633.332848019101
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8500000238418579,
+        "bbox": {
+          "x": 300,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 229,
+        "timestamp_ms": 7633.332848019101
+      },
+      {
+        "class_name": "vehicle",
+        "confidence": 0.7799999713897705,
+        "bbox": {
+          "x": 400,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        "frame_number": 229,
+        "timestamp_ms": 7633.332848019101
+      }
+    ]
+  },
+  {
+    "frame_number": 235,
+    "timestamp_ms": 7833.332835303445,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9200000166893005,
+        "bbox": {
+          "x": 50,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 235,
+        "timestamp_ms": 7833.332835303445
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8500000238418579,
+        "bbox": {
+          "x": 300,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 235,
+        "timestamp_ms": 7833.332835303445
+      },
+      {
+        "class_name": "vehicle",
+        "confidence": 0.7799999713897705,
+        "bbox": {
+          "x": 400,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        "frame_number": 235,
+        "timestamp_ms": 7833.332835303445
+      }
+    ]
+  },
+  {
+    "frame_number": 241,
+    "timestamp_ms": 8033.332822587788,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9200000166893005,
+        "bbox": {
+          "x": 50,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 241,
+        "timestamp_ms": 8033.332822587788
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8500000238418579,
+        "bbox": {
+          "x": 300,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 241,
+        "timestamp_ms": 8033.332822587788
+      },
+      {
+        "class_name": "vehicle",
+        "confidence": 0.7799999713897705,
+        "bbox": {
+          "x": 400,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        "frame_number": 241,
+        "timestamp_ms": 8033.332822587788
+      }
+    ]
+  },
+  {
+    "frame_number": 247,
+    "timestamp_ms": 8233.33280987213,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9200000166893005,
+        "bbox": {
+          "x": 50,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 247,
+        "timestamp_ms": 8233.33280987213
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8500000238418579,
+        "bbox": {
+          "x": 300,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 247,
+        "timestamp_ms": 8233.33280987213
+      },
+      {
+        "class_name": "vehicle",
+        "confidence": 0.7799999713897705,
+        "bbox": {
+          "x": 400,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        "frame_number": 247,
+        "timestamp_ms": 8233.33280987213
+      }
+    ]
+  },
+  {
+    "frame_number": 253,
+    "timestamp_ms": 8433.332797156474,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9200000166893005,
+        "bbox": {
+          "x": 50,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 253,
+        "timestamp_ms": 8433.332797156474
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8500000238418579,
+        "bbox": {
+          "x": 300,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 253,
+        "timestamp_ms": 8433.332797156474
+      },
+      {
+        "class_name": "vehicle",
+        "confidence": 0.7799999713897705,
+        "bbox": {
+          "x": 400,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        "frame_number": 253,
+        "timestamp_ms": 8433.332797156474
+      }
+    ]
+  },
+  {
+    "frame_number": 259,
+    "timestamp_ms": 8633.332784440818,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9200000166893005,
+        "bbox": {
+          "x": 50,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 259,
+        "timestamp_ms": 8633.332784440818
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8500000238418579,
+        "bbox": {
+          "x": 300,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 259,
+        "timestamp_ms": 8633.332784440818
+      },
+      {
+        "class_name": "vehicle",
+        "confidence": 0.7799999713897705,
+        "bbox": {
+          "x": 400,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        "frame_number": 259,
+        "timestamp_ms": 8633.332784440818
+      }
+    ]
+  },
+  {
+    "frame_number": 265,
+    "timestamp_ms": 8833.332771725161,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9200000166893005,
+        "bbox": {
+          "x": 50,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 265,
+        "timestamp_ms": 8833.332771725161
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8500000238418579,
+        "bbox": {
+          "x": 300,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 265,
+        "timestamp_ms": 8833.332771725161
+      },
+      {
+        "class_name": "vehicle",
+        "confidence": 0.7799999713897705,
+        "bbox": {
+          "x": 400,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        "frame_number": 265,
+        "timestamp_ms": 8833.332771725161
+      }
+    ]
+  },
+  {
+    "frame_number": 271,
+    "timestamp_ms": 9033.332759009503,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9200000166893005,
+        "bbox": {
+          "x": 50,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 271,
+        "timestamp_ms": 9033.332759009503
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8500000238418579,
+        "bbox": {
+          "x": 300,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 271,
+        "timestamp_ms": 9033.332759009503
+      },
+      {
+        "class_name": "vehicle",
+        "confidence": 0.7799999713897705,
+        "bbox": {
+          "x": 400,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        "frame_number": 271,
+        "timestamp_ms": 9033.332759009503
+      }
+    ]
+  },
+  {
+    "frame_number": 277,
+    "timestamp_ms": 9233.332746293847,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9200000166893005,
+        "bbox": {
+          "x": 50,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 277,
+        "timestamp_ms": 9233.332746293847
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8500000238418579,
+        "bbox": {
+          "x": 300,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 277,
+        "timestamp_ms": 9233.332746293847
+      },
+      {
+        "class_name": "vehicle",
+        "confidence": 0.7799999713897705,
+        "bbox": {
+          "x": 400,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        "frame_number": 277,
+        "timestamp_ms": 9233.332746293847
+      }
+    ]
+  },
+  {
+    "frame_number": 283,
+    "timestamp_ms": 9433.33273357819,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9200000166893005,
+        "bbox": {
+          "x": 50,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 283,
+        "timestamp_ms": 9433.33273357819
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8500000238418579,
+        "bbox": {
+          "x": 300,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 283,
+        "timestamp_ms": 9433.33273357819
+      },
+      {
+        "class_name": "vehicle",
+        "confidence": 0.7799999713897705,
+        "bbox": {
+          "x": 400,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        "frame_number": 283,
+        "timestamp_ms": 9433.33273357819
+      }
+    ]
+  },
+  {
+    "frame_number": 289,
+    "timestamp_ms": 9633.332720862534,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9200000166893005,
+        "bbox": {
+          "x": 50,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 289,
+        "timestamp_ms": 9633.332720862534
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8500000238418579,
+        "bbox": {
+          "x": 300,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 289,
+        "timestamp_ms": 9633.332720862534
+      },
+      {
+        "class_name": "vehicle",
+        "confidence": 0.7799999713897705,
+        "bbox": {
+          "x": 400,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        "frame_number": 289,
+        "timestamp_ms": 9633.332720862534
+      }
+    ]
+  },
+  {
+    "frame_number": 295,
+    "timestamp_ms": 9833.332708146876,
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9200000166893005,
+        "bbox": {
+          "x": 50,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 295,
+        "timestamp_ms": 9833.332708146876
+      },
+      {
+        "class_name": "person",
+        "confidence": 0.8500000238418579,
+        "bbox": {
+          "x": 300,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        "frame_number": 295,
+        "timestamp_ms": 9833.332708146876
+      },
+      {
+        "class_name": "vehicle",
+        "confidence": 0.7799999713897705,
+        "bbox": {
+          "x": 400,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        "frame_number": 295,
+        "timestamp_ms": 9833.332708146876
+      }
+    ]
+  }
+]

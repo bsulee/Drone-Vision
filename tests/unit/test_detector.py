@@ -119,7 +119,7 @@ class TestYOLODetector:
         empty_result.boxes.xyxy = np.empty((0, 4), dtype=np.float32)
         empty_result.boxes.conf = np.empty((0,), dtype=np.float32)
         empty_result.boxes.cls = np.empty((0,), dtype=np.float32)
-        mock_yolo_model.__call__ = lambda *a, **kw: [empty_result]
+        mock_yolo_model.side_effect = lambda *a, **kw: [empty_result]
 
         detector = YOLODetector(detection_config)
         frame = _make_frame_data()

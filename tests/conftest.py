@@ -88,14 +88,25 @@ def output_dir(tmp_path):
 # Phase 2: Detection fixtures
 # ---------------------------------------------------------------------------
 
+class _MockBox:
+    """Mimics a single ultralytics box with xyxy, conf, cls attributes."""
+
+    def __init__(self, xyxy, conf, cls):
+        self.xyxy = np.array([xyxy], dtype=np.float32)
+        self.conf = np.array([conf], dtype=np.float32)
+        self.cls = np.array([cls], dtype=np.float32)
+
+
 class _MockBoxes:
     """Mimics ultralytics Results.boxes for predictable test detections.
 
     Returns 2 'person' detections and 1 'car' detection.
+    Iterable — yields individual _MockBox objects like real ultralytics.
+    Iteration is dynamic: overriding xyxy/conf/cls arrays updates what
+    __iter__ yields, so tests can create empty-detection scenarios.
     """
 
     def __init__(self, width: int = 640, height: int = 480):
-        # xyxy format: [x1, y1, x2, y2]
         self.xyxy = np.array([
             [50, 80, 200, 400],    # person 1
             [300, 60, 450, 380],   # person 2
@@ -103,6 +114,13 @@ class _MockBoxes:
         ], dtype=np.float32)
         self.conf = np.array([0.92, 0.85, 0.78], dtype=np.float32)
         self.cls = np.array([0, 0, 2], dtype=np.float32)  # COCO: 0=person, 2=car
+
+    def __iter__(self):
+        for i in range(len(self.xyxy)):
+            yield _MockBox(self.xyxy[i], self.conf[i], self.cls[i])
+
+    def __len__(self):
+        return len(self.xyxy)
 
 
 class _MockResult:
@@ -123,14 +141,16 @@ def _make_mock_yolo_model():
         28: "suitcase", 43: "knife",
     }
 
-    # model(image, conf=...) returns list of Results
+    # model(image, conf=...) returns list of Results, filtering by conf like real YOLO
     def _inference(image, conf=0.5, verbose=False, **kwargs):
-        return [_MockResult()]
+        result = _MockResult()
+        mask = result.boxes.conf >= conf
+        result.boxes.xyxy = result.boxes.xyxy[mask]
+        result.boxes.conf = result.boxes.conf[mask]
+        result.boxes.cls = result.boxes.cls[mask]
+        return [result]
 
     model.side_effect = _inference
-    model.return_value = [_MockResult()]
-    # Make model callable directly
-    model.__call__ = _inference
     return model
 
 
