@@ -22,25 +22,31 @@ class DisplayManager:
 
     def __init__(self, console: Console = None):
         self.console = console or Console(stderr=True)
+        # Detect terminal width and adapt layouts accordingly.
+        self.term_width = self.console.width
 
     def show_header(self) -> None:
         """Display application header."""
+        # Adapt panel width to terminal, minimum 40 chars.
+        panel_width = min(max(self.term_width - 4, 40), 60)
         self.console.print(
             Panel(
                 f"[bold]DXD Vision Engine[/bold]  v{__version__}\n"
                 "AI-Powered Video Analysis",
                 border_style="blue",
-                width=60,
+                width=panel_width,
             )
         )
 
     def show_video_info(self, info: VideoInfo) -> None:
         """Display video metadata in a table."""
+        # Adapt table width to terminal.
+        table_width = max(self.term_width - 4, 30) if self.term_width < 40 else None
         table = Table(
             title="Video Information",
             show_header=False,
             border_style="dim",
-            min_width=40,
+            width=table_width,
         )
         table.add_column("Property", style="bold")
         table.add_column("Value")
@@ -64,10 +70,12 @@ class DisplayManager:
                 for frame in frames:
                     progress.update(task, advance=1)
         """
+        # Adapt progress bar width to terminal (minimum 20).
+        bar_width = max(min(self.term_width - 50, 40), 20)
         return Progress(
             SpinnerColumn(),
             TextColumn("[bold blue]{task.description}"),
-            BarColumn(bar_width=30),
+            BarColumn(bar_width=bar_width),
             MofNCompleteColumn(),
             TimeElapsedColumn(),
             TimeRemainingColumn(),
@@ -76,11 +84,13 @@ class DisplayManager:
 
     def show_results(self, result: ExtractionResult) -> None:
         """Display extraction results summary."""
+        # Adapt table width to terminal.
+        table_width = max(self.term_width - 4, 30) if self.term_width < 40 else None
         table = Table(
             title="Extraction Results",
             show_header=False,
             border_style="green",
-            min_width=40,
+            width=table_width,
         )
         table.add_column("Property", style="bold")
         table.add_column("Value")

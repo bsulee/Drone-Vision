@@ -5,6 +5,8 @@ from pathlib import Path
 from typing import Optional
 
 import click
+import yaml
+from pydantic import ValidationError
 
 from dxd_vision import __version__
 from dxd_vision.config.settings import load_config
@@ -47,11 +49,37 @@ def main(input: str, config: str, output: Optional[str], fps: Optional[float], v
     logger = setup_logging(verbose=verbose)
 
     # Load and apply config overrides.
-    cfg = load_config(config)
+    try:
+        cfg = load_config(config)
+    except yaml.YAMLError as exc:
+        click.echo(f"Error: Malformed YAML config file '{config}': {exc}", err=True)
+        sys.exit(1)
+    except ValidationError as exc:
+        click.echo(f"Error: Invalid config values in '{config}': {exc}", err=True)
+        sys.exit(1)
+    except Exception as exc:
+        click.echo(f"Error: Failed to load config '{config}': {exc}", err=True)
+        sys.exit(1)
+
+    # Validate and apply CLI overrides.
     if fps is not None:
+        if fps <= 0:
+            click.echo(f"Error: FPS must be positive (got {fps})", err=True)
+            sys.exit(1)
         cfg.extraction.target_fps = fps
     if output is not None:
         cfg.extraction.output_dir = output
+
+    # Ensure output directory exists and is writable.
+    output_dir = Path(cfg.extraction.output_dir)
+    try:
+        output_dir.mkdir(parents=True, exist_ok=True)
+    except PermissionError:
+        click.echo(f"Error: Permission denied creating output directory '{output_dir}'", err=True)
+        sys.exit(1)
+    except Exception as exc:
+        click.echo(f"Error: Failed to create output directory '{output_dir}': {exc}", err=True)
+        sys.exit(1)
 
     # Validate input format.
     input_path = Path(input)
