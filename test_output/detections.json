@@ -42,8 +42,8 @@
     ]
   },
   {
-    "frame_number": 7,
-    "timestamp_ms": 233.33331849840047,
+    "frame_number": 6,
+    "timestamp_ms": 200.0,
     "detections": [
       {
         "class_name": "person",
@@ -54,8 +54,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 7,
-        "timestamp_ms": 233.33331849840047
+        "frame_number": 6,
+        "timestamp_ms": 200.0
       },
       {
         "class_name": "person",
@@ -66,8 +66,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 7,
-        "timestamp_ms": 233.33331849840047
+        "frame_number": 6,
+        "timestamp_ms": 200.0
       },
       {
         "class_name": "vehicle",
@@ -78,14 +78,14 @@
           "width": 200,
           "height": 150
         },
-        "frame_number": 7,
-        "timestamp_ms": 233.33331849840047
+        "frame_number": 6,
+        "timestamp_ms": 200.0
       }
     ]
   },
   {
-    "frame_number": 13,
-    "timestamp_ms": 433.3333057827437,
+    "frame_number": 12,
+    "timestamp_ms": 400.0,
     "detections": [
       {
         "class_name": "person",
@@ -96,8 +96,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 13,
-        "timestamp_ms": 433.3333057827437
+        "frame_number": 12,
+        "timestamp_ms": 400.0
       },
       {
         "class_name": "person",
@@ -108,8 +108,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 13,
-        "timestamp_ms": 433.3333057827437
+        "frame_number": 12,
+        "timestamp_ms": 400.0
       },
       {
         "class_name": "vehicle",
@@ -120,14 +120,14 @@
           "width": 200,
           "height": 150
         },
-        "frame_number": 13,
-        "timestamp_ms": 433.3333057827437
+        "frame_number": 12,
+        "timestamp_ms": 400.0
       }
     ]
   },
   {
-    "frame_number": 19,
-    "timestamp_ms": 633.333293067087,
+    "frame_number": 18,
+    "timestamp_ms": 600.0,
     "detections": [
       {
         "class_name": "person",
@@ -138,8 +138,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 19,
-        "timestamp_ms": 633.333293067087
+        "frame_number": 18,
+        "timestamp_ms": 600.0
       },
       {
         "class_name": "person",
@@ -150,8 +150,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 19,
-        "timestamp_ms": 633.333293067087
+        "frame_number": 18,
+        "timestamp_ms": 600.0
       },
       {
         "class_name": "vehicle",
@@ -162,14 +162,14 @@
           "width": 200,
           "height": 150
         },
-        "frame_number": 19,
-        "timestamp_ms": 633.333293067087
+        "frame_number": 18,
+        "timestamp_ms": 600.0
       }
     ]
   },
   {
-    "frame_number": 25,
-    "timestamp_ms": 833.3332803514303,
+    "frame_number": 24,
+    "timestamp_ms": 800.0,
     "detections": [
       {
         "class_name": "person",
@@ -180,8 +180,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 25,
-        "timestamp_ms": 833.3332803514303
+        "frame_number": 24,
+        "timestamp_ms": 800.0
       },
       {
         "class_name": "person",
@@ -192,8 +192,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 25,
-        "timestamp_ms": 833.3332803514303
+        "frame_number": 24,
+        "timestamp_ms": 800.0
       },
       {
         "class_name": "vehicle",
@@ -204,14 +204,14 @@
           "width": 200,
           "height": 150
         },
-        "frame_number": 25,
-        "timestamp_ms": 833.3332803514303
+        "frame_number": 24,
+        "timestamp_ms": 800.0
       }
     ]
   },
   {
-    "frame_number": 31,
-    "timestamp_ms": 1033.3332676357736,
+    "frame_number": 30,
+    "timestamp_ms": 1000.0,
     "detections": [
       {
         "class_name": "person",
@@ -222,8 +222,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 31,
-        "timestamp_ms": 1033.3332676357736
+        "frame_number": 30,
+        "timestamp_ms": 1000.0
       },
       {
         "class_name": "person",
@@ -234,8 +234,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 31,
-        "timestamp_ms": 1033.3332676357736
+        "frame_number": 30,
+        "timestamp_ms": 1000.0
       },
       {
         "class_name": "vehicle",
@@ -246,14 +246,14 @@
           "width": 200,
           "height": 150
         },
-        "frame_number": 31,
-        "timestamp_ms": 1033.3332676357736
+        "frame_number": 30,
+        "timestamp_ms": 1000.0
       }
     ]
   },
   {
-    "frame_number": 37,
-    "timestamp_ms": 1233.3332549201168,
+    "frame_number": 36,
+    "timestamp_ms": 1200.0,
     "detections": [
       {
         "class_name": "person",
@@ -264,8 +264,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 37,
-        "timestamp_ms": 1233.3332549201168
+        "frame_number": 36,
+        "timestamp_ms": 1200.0
       },
       {
         "class_name": "person",
@@ -276,8 +276,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 37,
-        "timestamp_ms": 1233.3332549201168
+        "frame_number": 36,
+        "timestamp_ms": 1200.0
       },
       {
         "class_name": "vehicle",
@@ -288,14 +288,14 @@
           "width": 200,
           "height": 150
         },
-        "frame_number": 37,
-        "timestamp_ms": 1233.3332549201168
+        "frame_number": 36,
+        "timestamp_ms": 1200.0
       }
     ]
   },
   {
-    "frame_number": 43,
-    "timestamp_ms": 1433.33324220446,
+    "frame_number": 42,
+    "timestamp_ms": 1400.0,
     "detections": [
       {
         "class_name": "person",
@@ -306,8 +306,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 43,
-        "timestamp_ms": 1433.33324220446
+        "frame_number": 42,
+        "timestamp_ms": 1400.0
       },
       {
         "class_name": "person",
@@ -318,8 +318,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 43,
-        "timestamp_ms": 1433.33324220446
+        "frame_number": 42,
+        "timestamp_ms": 1400.0
       },
       {
         "class_name": "vehicle",
@@ -330,14 +330,14 @@
           "width": 200,
           "height": 150
         },
-        "frame_number": 43,
-        "timestamp_ms": 1433.33324220446
+        "frame_number": 42,
+        "timestamp_ms": 1400.0
       }
     ]
   },
   {
-    "frame_number": 49,
-    "timestamp_ms": 1633.3332294888032,
+    "frame_number": 48,
+    "timestamp_ms": 1600.0,
     "detections": [
       {
         "class_name": "person",
@@ -348,8 +348,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 49,
-        "timestamp_ms": 1633.3332294888032
+        "frame_number": 48,
+        "timestamp_ms": 1600.0
       },
       {
         "class_name": "person",
@@ -360,8 +360,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 49,
-        "timestamp_ms": 1633.3332294888032
+        "frame_number": 48,
+        "timestamp_ms": 1600.0
       },
       {
         "class_name": "vehicle",
@@ -372,14 +372,14 @@
           "width": 200,
           "height": 150
         },
-        "frame_number": 49,
-        "timestamp_ms": 1633.3332294888032
+        "frame_number": 48,
+        "timestamp_ms": 1600.0
       }
     ]
   },
   {
-    "frame_number": 55,
-    "timestamp_ms": 1833.3332167731464,
+    "frame_number": 54,
+    "timestamp_ms": 1800.0,
     "detections": [
       {
         "class_name": "person",
@@ -390,8 +390,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 55,
-        "timestamp_ms": 1833.3332167731464
+        "frame_number": 54,
+        "timestamp_ms": 1800.0
       },
       {
         "class_name": "person",
@@ -402,8 +402,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 55,
-        "timestamp_ms": 1833.3332167731464
+        "frame_number": 54,
+        "timestamp_ms": 1800.0
       },
       {
         "class_name": "vehicle",
@@ -414,14 +414,14 @@
           "width": 200,
           "height": 150
         },
-        "frame_number": 55,
-        "timestamp_ms": 1833.3332167731464
+        "frame_number": 54,
+        "timestamp_ms": 1800.0
       }
     ]
   },
   {
-    "frame_number": 61,
-    "timestamp_ms": 2033.3332040574899,
+    "frame_number": 60,
+    "timestamp_ms": 2000.0,
     "detections": [
       {
         "class_name": "person",
@@ -432,8 +432,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 61,
-        "timestamp_ms": 2033.3332040574899
+        "frame_number": 60,
+        "timestamp_ms": 2000.0
       },
       {
         "class_name": "person",
@@ -444,8 +444,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 61,
-        "timestamp_ms": 2033.3332040574899
+        "frame_number": 60,
+        "timestamp_ms": 2000.0
       },
       {
         "class_name": "vehicle",
@@ -456,14 +456,14 @@
           "width": 200,
           "height": 150
         },
-        "frame_number": 61,
-        "timestamp_ms": 2033.3332040574899
+        "frame_number": 60,
+        "timestamp_ms": 2000.0
       }
     ]
   },
   {
-    "frame_number": 67,
-    "timestamp_ms": 2233.333191341833,
+    "frame_number": 66,
+    "timestamp_ms": 2200.0,
     "detections": [
       {
         "class_name": "person",
@@ -474,8 +474,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 67,
-        "timestamp_ms": 2233.333191341833
+        "frame_number": 66,
+        "timestamp_ms": 2200.0
       },
       {
         "class_name": "person",
@@ -486,8 +486,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 67,
-        "timestamp_ms": 2233.333191341833
+        "frame_number": 66,
+        "timestamp_ms": 2200.0
       },
       {
         "class_name": "vehicle",
@@ -498,14 +498,14 @@
           "width": 200,
           "height": 150
         },
-        "frame_number": 67,
-        "timestamp_ms": 2233.333191341833
+        "frame_number": 66,
+        "timestamp_ms": 2200.0
       }
     ]
   },
   {
-    "frame_number": 73,
-    "timestamp_ms": 2433.333178626176,
+    "frame_number": 72,
+    "timestamp_ms": 2400.0,
     "detections": [
       {
         "class_name": "person",
@@ -516,8 +516,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 73,
-        "timestamp_ms": 2433.333178626176
+        "frame_number": 72,
+        "timestamp_ms": 2400.0
       },
       {
         "class_name": "person",
@@ -528,8 +528,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 73,
-        "timestamp_ms": 2433.333178626176
+        "frame_number": 72,
+        "timestamp_ms": 2400.0
       },
       {
         "class_name": "vehicle",
@@ -540,14 +540,14 @@
           "width": 200,
           "height": 150
         },
-        "frame_number": 73,
-        "timestamp_ms": 2433.333178626176
+        "frame_number": 72,
+        "timestamp_ms": 2400.0
       }
     ]
   },
   {
-    "frame_number": 79,
-    "timestamp_ms": 2633.3331659105193,
+    "frame_number": 78,
+    "timestamp_ms": 2600.0,
     "detections": [
       {
         "class_name": "person",
@@ -558,8 +558,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 79,
-        "timestamp_ms": 2633.3331659105193
+        "frame_number": 78,
+        "timestamp_ms": 2600.0
       },
       {
         "class_name": "person",
@@ -570,8 +570,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 79,
-        "timestamp_ms": 2633.3331659105193
+        "frame_number": 78,
+        "timestamp_ms": 2600.0
       },
       {
         "class_name": "vehicle",
@@ -582,14 +582,14 @@
           "width": 200,
           "height": 150
         },
-        "frame_number": 79,
-        "timestamp_ms": 2633.3331659105193
+        "frame_number": 78,
+        "timestamp_ms": 2600.0
       }
     ]
   },
   {
-    "frame_number": 85,
-    "timestamp_ms": 2833.3331531948625,
+    "frame_number": 84,
+    "timestamp_ms": 2800.0,
     "detections": [
       {
         "class_name": "person",
@@ -600,8 +600,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 85,
-        "timestamp_ms": 2833.3331531948625
+        "frame_number": 84,
+        "timestamp_ms": 2800.0
       },
       {
         "class_name": "person",
@@ -612,8 +612,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 85,
-        "timestamp_ms": 2833.3331531948625
+        "frame_number": 84,
+        "timestamp_ms": 2800.0
       },
       {
         "class_name": "vehicle",
@@ -624,14 +624,14 @@
           "width": 200,
           "height": 150
         },
-        "frame_number": 85,
-        "timestamp_ms": 2833.3331531948625
+        "frame_number": 84,
+        "timestamp_ms": 2800.0
       }
     ]
   },
   {
-    "frame_number": 91,
-    "timestamp_ms": 3033.3331404792057,
+    "frame_number": 90,
+    "timestamp_ms": 3000.0,
     "detections": [
       {
         "class_name": "person",
@@ -642,8 +642,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 91,
-        "timestamp_ms": 3033.3331404792057
+        "frame_number": 90,
+        "timestamp_ms": 3000.0
       },
       {
         "class_name": "person",
@@ -654,8 +654,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 91,
-        "timestamp_ms": 3033.3331404792057
+        "frame_number": 90,
+        "timestamp_ms": 3000.0
       },
       {
         "class_name": "vehicle",
@@ -666,14 +666,14 @@
           "width": 200,
           "height": 150
         },
-        "frame_number": 91,
-        "timestamp_ms": 3033.3331404792057
+        "frame_number": 90,
+        "timestamp_ms": 3000.0
       }
     ]
   },
   {
-    "frame_number": 97,
-    "timestamp_ms": 3233.3331277635493,
+    "frame_number": 96,
+    "timestamp_ms": 3200.0,
     "detections": [
       {
         "class_name": "person",
@@ -684,8 +684,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 97,
-        "timestamp_ms": 3233.3331277635493
+        "frame_number": 96,
+        "timestamp_ms": 3200.0
       },
       {
         "class_name": "person",
@@ -696,8 +696,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 97,
-        "timestamp_ms": 3233.3331277635493
+        "frame_number": 96,
+        "timestamp_ms": 3200.0
       },
       {
         "class_name": "vehicle",
@@ -708,14 +708,14 @@
           "width": 200,
           "height": 150
         },
-        "frame_number": 97,
-        "timestamp_ms": 3233.3331277635493
+        "frame_number": 96,
+        "timestamp_ms": 3200.0
       }
     ]
   },
   {
-    "frame_number": 103,
-    "timestamp_ms": 3433.3331150478925,
+    "frame_number": 102,
+    "timestamp_ms": 3400.0,
     "detections": [
       {
         "class_name": "person",
@@ -726,8 +726,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 103,
-        "timestamp_ms": 3433.3331150478925
+        "frame_number": 102,
+        "timestamp_ms": 3400.0
       },
       {
         "class_name": "person",
@@ -738,8 +738,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 103,
-        "timestamp_ms": 3433.3331150478925
+        "frame_number": 102,
+        "timestamp_ms": 3400.0
       },
       {
         "class_name": "vehicle",
@@ -750,14 +750,14 @@
           "width": 200,
           "height": 150
         },
-        "frame_number": 103,
-        "timestamp_ms": 3433.3331150478925
+        "frame_number": 102,
+        "timestamp_ms": 3400.0
       }
     ]
   },
   {
-    "frame_number": 109,
-    "timestamp_ms": 3633.3331023322357,
+    "frame_number": 108,
+    "timestamp_ms": 3600.0,
     "detections": [
       {
         "class_name": "person",
@@ -768,8 +768,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 109,
-        "timestamp_ms": 3633.3331023322357
+        "frame_number": 108,
+        "timestamp_ms": 3600.0
       },
       {
         "class_name": "person",
@@ -780,8 +780,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 109,
-        "timestamp_ms": 3633.3331023322357
+        "frame_number": 108,
+        "timestamp_ms": 3600.0
       },
       {
         "class_name": "vehicle",
@@ -792,14 +792,14 @@
           "width": 200,
           "height": 150
         },
-        "frame_number": 109,
-        "timestamp_ms": 3633.3331023322357
+        "frame_number": 108,
+        "timestamp_ms": 3600.0
       }
     ]
   },
   {
-    "frame_number": 115,
-    "timestamp_ms": 3833.333089616579,
+    "frame_number": 114,
+    "timestamp_ms": 3800.0,
     "detections": [
       {
         "class_name": "person",
@@ -810,8 +810,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 115,
-        "timestamp_ms": 3833.333089616579
+        "frame_number": 114,
+        "timestamp_ms": 3800.0
       },
       {
         "class_name": "person",
@@ -822,8 +822,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 115,
-        "timestamp_ms": 3833.333089616579
+        "frame_number": 114,
+        "timestamp_ms": 3800.0
       },
       {
         "class_name": "vehicle",
@@ -834,14 +834,14 @@
           "width": 200,
           "height": 150
         },
-        "frame_number": 115,
-        "timestamp_ms": 3833.333089616579
+        "frame_number": 114,
+        "timestamp_ms": 3800.0
       }
     ]
   },
   {
-    "frame_number": 121,
-    "timestamp_ms": 4033.3330769009217,
+    "frame_number": 120,
+    "timestamp_ms": 4000.0,
     "detections": [
       {
         "class_name": "person",
@@ -852,8 +852,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 121,
-        "timestamp_ms": 4033.3330769009217
+        "frame_number": 120,
+        "timestamp_ms": 4000.0
       },
       {
         "class_name": "person",
@@ -864,8 +864,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 121,
-        "timestamp_ms": 4033.3330769009217
+        "frame_number": 120,
+        "timestamp_ms": 4000.0
       },
       {
         "class_name": "vehicle",
@@ -876,14 +876,14 @@
           "width": 200,
           "height": 150
         },
-        "frame_number": 121,
-        "timestamp_ms": 4033.3330769009217
+        "frame_number": 120,
+        "timestamp_ms": 4000.0
       }
     ]
   },
   {
-    "frame_number": 127,
-    "timestamp_ms": 4233.333064185266,
+    "frame_number": 126,
+    "timestamp_ms": 4200.0,
     "detections": [
       {
         "class_name": "person",
@@ -894,8 +894,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 127,
-        "timestamp_ms": 4233.333064185266
+        "frame_number": 126,
+        "timestamp_ms": 4200.0
       },
       {
         "class_name": "person",
@@ -906,8 +906,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 127,
-        "timestamp_ms": 4233.333064185266
+        "frame_number": 126,
+        "timestamp_ms": 4200.0
       },
       {
         "class_name": "vehicle",
@@ -918,14 +918,14 @@
           "width": 200,
           "height": 150
         },
-        "frame_number": 127,
-        "timestamp_ms": 4233.333064185266
+        "frame_number": 126,
+        "timestamp_ms": 4200.0
       }
     ]
   },
   {
-    "frame_number": 133,
-    "timestamp_ms": 4433.333051469609,
+    "frame_number": 132,
+    "timestamp_ms": 4400.0,
     "detections": [
       {
         "class_name": "person",
@@ -936,8 +936,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 133,
-        "timestamp_ms": 4433.333051469609
+        "frame_number": 132,
+        "timestamp_ms": 4400.0
       },
       {
         "class_name": "person",
@@ -948,8 +948,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 133,
-        "timestamp_ms": 4433.333051469609
+        "frame_number": 132,
+        "timestamp_ms": 4400.0
       },
       {
         "class_name": "vehicle",
@@ -960,14 +960,14 @@
           "width": 200,
           "height": 150
         },
-        "frame_number": 133,
-        "timestamp_ms": 4433.333051469609
+        "frame_number": 132,
+        "timestamp_ms": 4400.0
       }
     ]
   },
   {
-    "frame_number": 139,
-    "timestamp_ms": 4633.333038753953,
+    "frame_number": 138,
+    "timestamp_ms": 4600.0,
     "detections": [
       {
         "class_name": "person",
@@ -978,8 +978,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 139,
-        "timestamp_ms": 4633.333038753953
+        "frame_number": 138,
+        "timestamp_ms": 4600.0
       },
       {
         "class_name": "person",
@@ -990,8 +990,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 139,
-        "timestamp_ms": 4633.333038753953
+        "frame_number": 138,
+        "timestamp_ms": 4600.0
       },
       {
         "class_name": "vehicle",
@@ -1002,14 +1002,14 @@
           "width": 200,
           "height": 150
         },
-        "frame_number": 139,
-        "timestamp_ms": 4633.333038753953
+        "frame_number": 138,
+        "timestamp_ms": 4600.0
       }
     ]
   },
   {
-    "frame_number": 145,
-    "timestamp_ms": 4833.333026038295,
+    "frame_number": 144,
+    "timestamp_ms": 4800.0,
     "detections": [
       {
         "class_name": "person",
@@ -1020,8 +1020,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 145,
-        "timestamp_ms": 4833.333026038295
+        "frame_number": 144,
+        "timestamp_ms": 4800.0
       },
       {
         "class_name": "person",
@@ -1032,8 +1032,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 145,
-        "timestamp_ms": 4833.333026038295
+        "frame_number": 144,
+        "timestamp_ms": 4800.0
       },
       {
         "class_name": "vehicle",
@@ -1044,14 +1044,14 @@
           "width": 200,
           "height": 150
         },
-        "frame_number": 145,
-        "timestamp_ms": 4833.333026038295
+        "frame_number": 144,
+        "timestamp_ms": 4800.0
       }
     ]
   },
   {
-    "frame_number": 151,
-    "timestamp_ms": 5033.333013322639,
+    "frame_number": 150,
+    "timestamp_ms": 5000.0,
     "detections": [
       {
         "class_name": "person",
@@ -1062,8 +1062,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 151,
-        "timestamp_ms": 5033.333013322639
+        "frame_number": 150,
+        "timestamp_ms": 5000.0
       },
       {
         "class_name": "person",
@@ -1074,8 +1074,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 151,
-        "timestamp_ms": 5033.333013322639
+        "frame_number": 150,
+        "timestamp_ms": 5000.0
       },
       {
         "class_name": "vehicle",
@@ -1086,14 +1086,14 @@
           "width": 200,
           "height": 150
         },
-        "frame_number": 151,
-        "timestamp_ms": 5033.333013322639
+        "frame_number": 150,
+        "timestamp_ms": 5000.0
       }
     ]
   },
   {
-    "frame_number": 157,
-    "timestamp_ms": 5233.333000606982,
+    "frame_number": 156,
+    "timestamp_ms": 5200.0,
     "detections": [
       {
         "class_name": "person",
@@ -1104,8 +1104,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 157,
-        "timestamp_ms": 5233.333000606982
+        "frame_number": 156,
+        "timestamp_ms": 5200.0
       },
       {
         "class_name": "person",
@@ -1116,8 +1116,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 157,
-        "timestamp_ms": 5233.333000606982
+        "frame_number": 156,
+        "timestamp_ms": 5200.0
       },
       {
         "class_name": "vehicle",
@@ -1128,14 +1128,14 @@
           "width": 200,
           "height": 150
         },
-        "frame_number": 157,
-        "timestamp_ms": 5233.333000606982
+        "frame_number": 156,
+        "timestamp_ms": 5200.0
       }
     ]
   },
   {
-    "frame_number": 163,
-    "timestamp_ms": 5433.3329878913255,
+    "frame_number": 162,
+    "timestamp_ms": 5400.0,
     "detections": [
       {
         "class_name": "person",
@@ -1146,8 +1146,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 163,
-        "timestamp_ms": 5433.3329878913255
+        "frame_number": 162,
+        "timestamp_ms": 5400.0
       },
       {
         "class_name": "person",
@@ -1158,8 +1158,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 163,
-        "timestamp_ms": 5433.3329878913255
+        "frame_number": 162,
+        "timestamp_ms": 5400.0
       },
       {
         "class_name": "vehicle",
@@ -1170,14 +1170,14 @@
           "width": 200,
           "height": 150
         },
-        "frame_number": 163,
-        "timestamp_ms": 5433.3329878913255
+        "frame_number": 162,
+        "timestamp_ms": 5400.0
       }
     ]
   },
   {
-    "frame_number": 169,
-    "timestamp_ms": 5633.332975175668,
+    "frame_number": 168,
+    "timestamp_ms": 5600.0,
     "detections": [
       {
         "class_name": "person",
@@ -1188,8 +1188,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 169,
-        "timestamp_ms": 5633.332975175668
+        "frame_number": 168,
+        "timestamp_ms": 5600.0
       },
       {
         "class_name": "person",
@@ -1200,8 +1200,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 169,
-        "timestamp_ms": 5633.332975175668
+        "frame_number": 168,
+        "timestamp_ms": 5600.0
       },
       {
         "class_name": "vehicle",
@@ -1212,14 +1212,14 @@
           "width": 200,
           "height": 150
         },
-        "frame_number": 169,
-        "timestamp_ms": 5633.332975175668
+        "frame_number": 168,
+        "timestamp_ms": 5600.0
       }
     ]
   },
   {
-    "frame_number": 175,
-    "timestamp_ms": 5833.332962460012,
+    "frame_number": 174,
+    "timestamp_ms": 5800.0,
     "detections": [
       {
         "class_name": "person",
@@ -1230,8 +1230,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 175,
-        "timestamp_ms": 5833.332962460012
+        "frame_number": 174,
+        "timestamp_ms": 5800.0
       },
       {
         "class_name": "person",
@@ -1242,8 +1242,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 175,
-        "timestamp_ms": 5833.332962460012
+        "frame_number": 174,
+        "timestamp_ms": 5800.0
       },
       {
         "class_name": "vehicle",
@@ -1254,14 +1254,14 @@
           "width": 200,
           "height": 150
         },
-        "frame_number": 175,
-        "timestamp_ms": 5833.332962460012
+        "frame_number": 174,
+        "timestamp_ms": 5800.0
       }
     ]
   },
   {
-    "frame_number": 181,
-    "timestamp_ms": 6033.332949744355,
+    "frame_number": 180,
+    "timestamp_ms": 6000.0,
     "detections": [
       {
         "class_name": "person",
@@ -1272,8 +1272,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 181,
-        "timestamp_ms": 6033.332949744355
+        "frame_number": 180,
+        "timestamp_ms": 6000.0
       },
       {
         "class_name": "person",
@@ -1284,8 +1284,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 181,
-        "timestamp_ms": 6033.332949744355
+        "frame_number": 180,
+        "timestamp_ms": 6000.0
       },
       {
         "class_name": "vehicle",
@@ -1296,14 +1296,14 @@
           "width": 200,
           "height": 150
         },
-        "frame_number": 181,
-        "timestamp_ms": 6033.332949744355
+        "frame_number": 180,
+        "timestamp_ms": 6000.0
       }
     ]
   },
   {
-    "frame_number": 187,
-    "timestamp_ms": 6233.332937028698,
+    "frame_number": 186,
+    "timestamp_ms": 6200.0,
     "detections": [
       {
         "class_name": "person",
@@ -1314,8 +1314,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 187,
-        "timestamp_ms": 6233.332937028698
+        "frame_number": 186,
+        "timestamp_ms": 6200.0
       },
       {
         "class_name": "person",
@@ -1326,8 +1326,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 187,
-        "timestamp_ms": 6233.332937028698
+        "frame_number": 186,
+        "timestamp_ms": 6200.0
       },
       {
         "class_name": "vehicle",
@@ -1338,14 +1338,14 @@
           "width": 200,
           "height": 150
         },
-        "frame_number": 187,
-        "timestamp_ms": 6233.332937028698
+        "frame_number": 186,
+        "timestamp_ms": 6200.0
       }
     ]
   },
   {
-    "frame_number": 193,
-    "timestamp_ms": 6433.332924313041,
+    "frame_number": 192,
+    "timestamp_ms": 6400.0,
     "detections": [
       {
         "class_name": "person",
@@ -1356,8 +1356,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 193,
-        "timestamp_ms": 6433.332924313041
+        "frame_number": 192,
+        "timestamp_ms": 6400.0
       },
       {
         "class_name": "person",
@@ -1368,8 +1368,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 193,
-        "timestamp_ms": 6433.332924313041
+        "frame_number": 192,
+        "timestamp_ms": 6400.0
       },
       {
         "class_name": "vehicle",
@@ -1380,14 +1380,14 @@
           "width": 200,
           "height": 150
         },
-        "frame_number": 193,
-        "timestamp_ms": 6433.332924313041
+        "frame_number": 192,
+        "timestamp_ms": 6400.0
       }
     ]
   },
   {
-    "frame_number": 199,
-    "timestamp_ms": 6633.332911597385,
+    "frame_number": 198,
+    "timestamp_ms": 6600.0,
     "detections": [
       {
         "class_name": "person",
@@ -1398,8 +1398,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 199,
-        "timestamp_ms": 6633.332911597385
+        "frame_number": 198,
+        "timestamp_ms": 6600.0
       },
       {
         "class_name": "person",
@@ -1410,8 +1410,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 199,
-        "timestamp_ms": 6633.332911597385
+        "frame_number": 198,
+        "timestamp_ms": 6600.0
       },
       {
         "class_name": "vehicle",
@@ -1422,14 +1422,14 @@
           "width": 200,
           "height": 150
         },
-        "frame_number": 199,
-        "timestamp_ms": 6633.332911597385
+        "frame_number": 198,
+        "timestamp_ms": 6600.0
       }
     ]
   },
   {
-    "frame_number": 205,
-    "timestamp_ms": 6833.3328988817275,
+    "frame_number": 204,
+    "timestamp_ms": 6800.0,
     "detections": [
       {
         "class_name": "person",
@@ -1440,8 +1440,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 205,
-        "timestamp_ms": 6833.3328988817275
+        "frame_number": 204,
+        "timestamp_ms": 6800.0
       },
       {
         "class_name": "person",
@@ -1452,8 +1452,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 205,
-        "timestamp_ms": 6833.3328988817275
+        "frame_number": 204,
+        "timestamp_ms": 6800.0
       },
       {
         "class_name": "vehicle",
@@ -1464,14 +1464,14 @@
           "width": 200,
           "height": 150
         },
-        "frame_number": 205,
-        "timestamp_ms": 6833.3328988817275
+        "frame_number": 204,
+        "timestamp_ms": 6800.0
       }
     ]
   },
   {
-    "frame_number": 211,
-    "timestamp_ms": 7033.332886166071,
+    "frame_number": 210,
+    "timestamp_ms": 7000.0,
     "detections": [
       {
         "class_name": "person",
@@ -1482,8 +1482,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 211,
-        "timestamp_ms": 7033.332886166071
+        "frame_number": 210,
+        "timestamp_ms": 7000.0
       },
       {
         "class_name": "person",
@@ -1494,8 +1494,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 211,
-        "timestamp_ms": 7033.332886166071
+        "frame_number": 210,
+        "timestamp_ms": 7000.0
       },
       {
         "class_name": "vehicle",
@@ -1506,14 +1506,14 @@
           "width": 200,
           "height": 150
         },
-        "frame_number": 211,
-        "timestamp_ms": 7033.332886166071
+        "frame_number": 210,
+        "timestamp_ms": 7000.0
       }
     ]
   },
   {
-    "frame_number": 217,
-    "timestamp_ms": 7233.332873450414,
+    "frame_number": 216,
+    "timestamp_ms": 7200.0,
     "detections": [
       {
         "class_name": "person",
@@ -1524,8 +1524,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 217,
-        "timestamp_ms": 7233.332873450414
+        "frame_number": 216,
+        "timestamp_ms": 7200.0
       },
       {
         "class_name": "person",
@@ -1536,8 +1536,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 217,
-        "timestamp_ms": 7233.332873450414
+        "frame_number": 216,
+        "timestamp_ms": 7200.0
       },
       {
         "class_name": "vehicle",
@@ -1548,14 +1548,14 @@
           "width": 200,
           "height": 150
         },
-        "frame_number": 217,
-        "timestamp_ms": 7233.332873450414
+        "frame_number": 216,
+        "timestamp_ms": 7200.0
       }
     ]
   },
   {
-    "frame_number": 223,
-    "timestamp_ms": 7433.332860734758,
+    "frame_number": 222,
+    "timestamp_ms": 7400.0,
     "detections": [
       {
         "class_name": "person",
@@ -1566,8 +1566,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 223,
-        "timestamp_ms": 7433.332860734758
+        "frame_number": 222,
+        "timestamp_ms": 7400.0
       },
       {
         "class_name": "person",
@@ -1578,8 +1578,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 223,
-        "timestamp_ms": 7433.332860734758
+        "frame_number": 222,
+        "timestamp_ms": 7400.0
       },
       {
         "class_name": "vehicle",
@@ -1590,14 +1590,14 @@
           "width": 200,
           "height": 150
         },
-        "frame_number": 223,
-        "timestamp_ms": 7433.332860734758
+        "frame_number": 222,
+        "timestamp_ms": 7400.0
       }
     ]
   },
   {
-    "frame_number": 229,
-    "timestamp_ms": 7633.332848019101,
+    "frame_number": 228,
+    "timestamp_ms": 7600.0,
     "detections": [
       {
         "class_name": "person",
@@ -1608,8 +1608,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 229,
-        "timestamp_ms": 7633.332848019101
+        "frame_number": 228,
+        "timestamp_ms": 7600.0
       },
       {
         "class_name": "person",
@@ -1620,8 +1620,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 229,
-        "timestamp_ms": 7633.332848019101
+        "frame_number": 228,
+        "timestamp_ms": 7600.0
       },
       {
         "class_name": "vehicle",
@@ -1632,14 +1632,14 @@
           "width": 200,
           "height": 150
         },
-        "frame_number": 229,
-        "timestamp_ms": 7633.332848019101
+        "frame_number": 228,
+        "timestamp_ms": 7600.0
       }
     ]
   },
   {
-    "frame_number": 235,
-    "timestamp_ms": 7833.332835303445,
+    "frame_number": 234,
+    "timestamp_ms": 7800.0,
     "detections": [
       {
         "class_name": "person",
@@ -1650,8 +1650,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 235,
-        "timestamp_ms": 7833.332835303445
+        "frame_number": 234,
+        "timestamp_ms": 7800.0
       },
       {
         "class_name": "person",
@@ -1662,8 +1662,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 235,
-        "timestamp_ms": 7833.332835303445
+        "frame_number": 234,
+        "timestamp_ms": 7800.0
       },
       {
         "class_name": "vehicle",
@@ -1674,14 +1674,14 @@
           "width": 200,
           "height": 150
         },
-        "frame_number": 235,
-        "timestamp_ms": 7833.332835303445
+        "frame_number": 234,
+        "timestamp_ms": 7800.0
       }
     ]
   },
   {
-    "frame_number": 241,
-    "timestamp_ms": 8033.332822587788,
+    "frame_number": 240,
+    "timestamp_ms": 8000.0,
     "detections": [
       {
         "class_name": "person",
@@ -1692,8 +1692,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 241,
-        "timestamp_ms": 8033.332822587788
+        "frame_number": 240,
+        "timestamp_ms": 8000.0
       },
       {
         "class_name": "person",
@@ -1704,8 +1704,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 241,
-        "timestamp_ms": 8033.332822587788
+        "frame_number": 240,
+        "timestamp_ms": 8000.0
       },
       {
         "class_name": "vehicle",
@@ -1716,14 +1716,14 @@
           "width": 200,
           "height": 150
         },
-        "frame_number": 241,
-        "timestamp_ms": 8033.332822587788
+        "frame_number": 240,
+        "timestamp_ms": 8000.0
       }
     ]
   },
   {
-    "frame_number": 247,
-    "timestamp_ms": 8233.33280987213,
+    "frame_number": 246,
+    "timestamp_ms": 8200.0,
     "detections": [
       {
         "class_name": "person",
@@ -1734,8 +1734,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 247,
-        "timestamp_ms": 8233.33280987213
+        "frame_number": 246,
+        "timestamp_ms": 8200.0
       },
       {
         "class_name": "person",
@@ -1746,8 +1746,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 247,
-        "timestamp_ms": 8233.33280987213
+        "frame_number": 246,
+        "timestamp_ms": 8200.0
       },
       {
         "class_name": "vehicle",
@@ -1758,14 +1758,14 @@
           "width": 200,
           "height": 150
         },
-        "frame_number": 247,
-        "timestamp_ms": 8233.33280987213
+        "frame_number": 246,
+        "timestamp_ms": 8200.0
       }
     ]
   },
   {
-    "frame_number": 253,
-    "timestamp_ms": 8433.332797156474,
+    "frame_number": 252,
+    "timestamp_ms": 8400.0,
     "detections": [
       {
         "class_name": "person",
@@ -1776,8 +1776,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 253,
-        "timestamp_ms": 8433.332797156474
+        "frame_number": 252,
+        "timestamp_ms": 8400.0
       },
       {
         "class_name": "person",
@@ -1788,8 +1788,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 253,
-        "timestamp_ms": 8433.332797156474
+        "frame_number": 252,
+        "timestamp_ms": 8400.0
       },
       {
         "class_name": "vehicle",
@@ -1800,14 +1800,14 @@
           "width": 200,
           "height": 150
         },
-        "frame_number": 253,
-        "timestamp_ms": 8433.332797156474
+        "frame_number": 252,
+        "timestamp_ms": 8400.0
       }
     ]
   },
   {
-    "frame_number": 259,
-    "timestamp_ms": 8633.332784440818,
+    "frame_number": 258,
+    "timestamp_ms": 8600.0,
     "detections": [
       {
         "class_name": "person",
@@ -1818,8 +1818,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 259,
-        "timestamp_ms": 8633.332784440818
+        "frame_number": 258,
+        "timestamp_ms": 8600.0
       },
       {
         "class_name": "person",
@@ -1830,8 +1830,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 259,
-        "timestamp_ms": 8633.332784440818
+        "frame_number": 258,
+        "timestamp_ms": 8600.0
       },
       {
         "class_name": "vehicle",
@@ -1842,14 +1842,14 @@
           "width": 200,
           "height": 150
         },
-        "frame_number": 259,
-        "timestamp_ms": 8633.332784440818
+        "frame_number": 258,
+        "timestamp_ms": 8600.0
       }
     ]
   },
   {
-    "frame_number": 265,
-    "timestamp_ms": 8833.332771725161,
+    "frame_number": 264,
+    "timestamp_ms": 8800.0,
     "detections": [
       {
         "class_name": "person",
@@ -1860,8 +1860,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 265,
-        "timestamp_ms": 8833.332771725161
+        "frame_number": 264,
+        "timestamp_ms": 8800.0
       },
       {
         "class_name": "person",
@@ -1872,8 +1872,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 265,
-        "timestamp_ms": 8833.332771725161
+        "frame_number": 264,
+        "timestamp_ms": 8800.0
       },
       {
         "class_name": "vehicle",
@@ -1884,14 +1884,14 @@
           "width": 200,
           "height": 150
         },
-        "frame_number": 265,
-        "timestamp_ms": 8833.332771725161
+        "frame_number": 264,
+        "timestamp_ms": 8800.0
       }
     ]
   },
   {
-    "frame_number": 271,
-    "timestamp_ms": 9033.332759009503,
+    "frame_number": 270,
+    "timestamp_ms": 9000.0,
     "detections": [
       {
         "class_name": "person",
@@ -1902,8 +1902,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 271,
-        "timestamp_ms": 9033.332759009503
+        "frame_number": 270,
+        "timestamp_ms": 9000.0
       },
       {
         "class_name": "person",
@@ -1914,8 +1914,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 271,
-        "timestamp_ms": 9033.332759009503
+        "frame_number": 270,
+        "timestamp_ms": 9000.0
       },
       {
         "class_name": "vehicle",
@@ -1926,14 +1926,14 @@
           "width": 200,
           "height": 150
         },
-        "frame_number": 271,
-        "timestamp_ms": 9033.332759009503
+        "frame_number": 270,
+        "timestamp_ms": 9000.0
       }
     ]
   },
   {
-    "frame_number": 277,
-    "timestamp_ms": 9233.332746293847,
+    "frame_number": 276,
+    "timestamp_ms": 9200.0,
     "detections": [
       {
         "class_name": "person",
@@ -1944,8 +1944,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 277,
-        "timestamp_ms": 9233.332746293847
+        "frame_number": 276,
+        "timestamp_ms": 9200.0
       },
       {
         "class_name": "person",
@@ -1956,8 +1956,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 277,
-        "timestamp_ms": 9233.332746293847
+        "frame_number": 276,
+        "timestamp_ms": 9200.0
       },
       {
         "class_name": "vehicle",
@@ -1968,14 +1968,14 @@
           "width": 200,
           "height": 150
         },
-        "frame_number": 277,
-        "timestamp_ms": 9233.332746293847
+        "frame_number": 276,
+        "timestamp_ms": 9200.0
       }
     ]
   },
   {
-    "frame_number": 283,
-    "timestamp_ms": 9433.33273357819,
+    "frame_number": 282,
+    "timestamp_ms": 9400.0,
     "detections": [
       {
         "class_name": "person",
@@ -1986,8 +1986,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 283,
-        "timestamp_ms": 9433.33273357819
+        "frame_number": 282,
+        "timestamp_ms": 9400.0
       },
       {
         "class_name": "person",
@@ -1998,8 +1998,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 283,
-        "timestamp_ms": 9433.33273357819
+        "frame_number": 282,
+        "timestamp_ms": 9400.0
       },
       {
         "class_name": "vehicle",
@@ -2010,14 +2010,14 @@
           "width": 200,
           "height": 150
         },
-        "frame_number": 283,
-        "timestamp_ms": 9433.33273357819
+        "frame_number": 282,
+        "timestamp_ms": 9400.0
       }
     ]
   },
   {
-    "frame_number": 289,
-    "timestamp_ms": 9633.332720862534,
+    "frame_number": 288,
+    "timestamp_ms": 9600.0,
     "detections": [
       {
         "class_name": "person",
@@ -2028,8 +2028,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 289,
-        "timestamp_ms": 9633.332720862534
+        "frame_number": 288,
+        "timestamp_ms": 9600.0
       },
       {
         "class_name": "person",
@@ -2040,8 +2040,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 289,
-        "timestamp_ms": 9633.332720862534
+        "frame_number": 288,
+        "timestamp_ms": 9600.0
       },
       {
         "class_name": "vehicle",
@@ -2052,14 +2052,14 @@
           "width": 200,
           "height": 150
         },
-        "frame_number": 289,
-        "timestamp_ms": 9633.332720862534
+        "frame_number": 288,
+        "timestamp_ms": 9600.0
       }
     ]
   },
   {
-    "frame_number": 295,
-    "timestamp_ms": 9833.332708146876,
+    "frame_number": 294,
+    "timestamp_ms": 9800.0,
     "detections": [
       {
         "class_name": "person",
@@ -2070,8 +2070,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 295,
-        "timestamp_ms": 9833.332708146876
+        "frame_number": 294,
+        "timestamp_ms": 9800.0
       },
       {
         "class_name": "person",
@@ -2082,8 +2082,8 @@
           "width": 150,
           "height": 320
         },
-        "frame_number": 295,
-        "timestamp_ms": 9833.332708146876
+        "frame_number": 294,
+        "timestamp_ms": 9800.0
       },
       {
         "class_name": "vehicle",
@@ -2094,8 +2094,8 @@
           "width": 200,
           "height": 150
         },
-        "frame_number": 295,
-        "timestamp_ms": 9833.332708146876
+        "frame_number": 294,
+        "timestamp_ms": 9800.0
       }
     ]
   }

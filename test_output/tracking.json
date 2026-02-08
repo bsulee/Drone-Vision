@@ -1,0 +1,3495 @@
+{
+  "frames": [
+    {
+      "frame_number": 0,
+      "timestamp_ms": 0.0,
+      "tracked_detections": [
+        {
+          "track_id": 1,
+          "object_id": "person_1",
+          "class_name": "person",
+          "confidence": 0.9200000166893005,
+          "bbox": {
+            "x": 50,
+            "y": 80,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 0,
+          "timestamp_ms": 0.0
+        },
+        {
+          "track_id": 2,
+          "object_id": "person_2",
+          "class_name": "person",
+          "confidence": 0.8500000238418579,
+          "bbox": {
+            "x": 300,
+            "y": 60,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 0,
+          "timestamp_ms": 0.0
+        },
+        {
+          "track_id": 3,
+          "object_id": "vehicle_3",
+          "class_name": "vehicle",
+          "confidence": 0.7799999713897705,
+          "bbox": {
+            "x": 400,
+            "y": 200,
+            "width": 200,
+            "height": 150
+          },
+          "frame_number": 0,
+          "timestamp_ms": 0.0
+        }
+      ]
+    },
+    {
+      "frame_number": 6,
+      "timestamp_ms": 200.0,
+      "tracked_detections": [
+        {
+          "track_id": 1,
+          "object_id": "person_1",
+          "class_name": "person",
+          "confidence": 0.9200000166893005,
+          "bbox": {
+            "x": 55,
+            "y": 80,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 6,
+          "timestamp_ms": 200.0
+        },
+        {
+          "track_id": 2,
+          "object_id": "person_2",
+          "class_name": "person",
+          "confidence": 0.8500000238418579,
+          "bbox": {
+            "x": 305,
+            "y": 60,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 6,
+          "timestamp_ms": 200.0
+        },
+        {
+          "track_id": 3,
+          "object_id": "vehicle_3",
+          "class_name": "vehicle",
+          "confidence": 0.7799999713897705,
+          "bbox": {
+            "x": 405,
+            "y": 200,
+            "width": 200,
+            "height": 150
+          },
+          "frame_number": 6,
+          "timestamp_ms": 200.0
+        }
+      ]
+    },
+    {
+      "frame_number": 12,
+      "timestamp_ms": 400.0,
+      "tracked_detections": [
+        {
+          "track_id": 1,
+          "object_id": "person_1",
+          "class_name": "person",
+          "confidence": 0.9200000166893005,
+          "bbox": {
+            "x": 60,
+            "y": 80,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 12,
+          "timestamp_ms": 400.0
+        },
+        {
+          "track_id": 2,
+          "object_id": "person_2",
+          "class_name": "person",
+          "confidence": 0.8500000238418579,
+          "bbox": {
+            "x": 310,
+            "y": 60,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 12,
+          "timestamp_ms": 400.0
+        },
+        {
+          "track_id": 3,
+          "object_id": "vehicle_3",
+          "class_name": "vehicle",
+          "confidence": 0.7799999713897705,
+          "bbox": {
+            "x": 410,
+            "y": 200,
+            "width": 200,
+            "height": 150
+          },
+          "frame_number": 12,
+          "timestamp_ms": 400.0
+        }
+      ]
+    },
+    {
+      "frame_number": 18,
+      "timestamp_ms": 600.0,
+      "tracked_detections": [
+        {
+          "track_id": 1,
+          "object_id": "person_1",
+          "class_name": "person",
+          "confidence": 0.9200000166893005,
+          "bbox": {
+            "x": 65,
+            "y": 80,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 18,
+          "timestamp_ms": 600.0
+        },
+        {
+          "track_id": 2,
+          "object_id": "person_2",
+          "class_name": "person",
+          "confidence": 0.8500000238418579,
+          "bbox": {
+            "x": 315,
+            "y": 60,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 18,
+          "timestamp_ms": 600.0
+        },
+        {
+          "track_id": 3,
+          "object_id": "vehicle_3",
+          "class_name": "vehicle",
+          "confidence": 0.7799999713897705,
+          "bbox": {
+            "x": 415,
+            "y": 200,
+            "width": 200,
+            "height": 150
+          },
+          "frame_number": 18,
+          "timestamp_ms": 600.0
+        }
+      ]
+    },
+    {
+      "frame_number": 24,
+      "timestamp_ms": 800.0,
+      "tracked_detections": [
+        {
+          "track_id": 1,
+          "object_id": "person_1",
+          "class_name": "person",
+          "confidence": 0.9200000166893005,
+          "bbox": {
+            "x": 70,
+            "y": 80,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 24,
+          "timestamp_ms": 800.0
+        },
+        {
+          "track_id": 2,
+          "object_id": "person_2",
+          "class_name": "person",
+          "confidence": 0.8500000238418579,
+          "bbox": {
+            "x": 320,
+            "y": 60,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 24,
+          "timestamp_ms": 800.0
+        },
+        {
+          "track_id": 3,
+          "object_id": "vehicle_3",
+          "class_name": "vehicle",
+          "confidence": 0.7799999713897705,
+          "bbox": {
+            "x": 420,
+            "y": 200,
+            "width": 200,
+            "height": 150
+          },
+          "frame_number": 24,
+          "timestamp_ms": 800.0
+        }
+      ]
+    },
+    {
+      "frame_number": 30,
+      "timestamp_ms": 1000.0,
+      "tracked_detections": [
+        {
+          "track_id": 1,
+          "object_id": "person_1",
+          "class_name": "person",
+          "confidence": 0.9200000166893005,
+          "bbox": {
+            "x": 75,
+            "y": 80,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 30,
+          "timestamp_ms": 1000.0
+        },
+        {
+          "track_id": 2,
+          "object_id": "person_2",
+          "class_name": "person",
+          "confidence": 0.8500000238418579,
+          "bbox": {
+            "x": 325,
+            "y": 60,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 30,
+          "timestamp_ms": 1000.0
+        },
+        {
+          "track_id": 3,
+          "object_id": "vehicle_3",
+          "class_name": "vehicle",
+          "confidence": 0.7799999713897705,
+          "bbox": {
+            "x": 425,
+            "y": 200,
+            "width": 200,
+            "height": 150
+          },
+          "frame_number": 30,
+          "timestamp_ms": 1000.0
+        }
+      ]
+    },
+    {
+      "frame_number": 36,
+      "timestamp_ms": 1200.0,
+      "tracked_detections": [
+        {
+          "track_id": 1,
+          "object_id": "person_1",
+          "class_name": "person",
+          "confidence": 0.9200000166893005,
+          "bbox": {
+            "x": 80,
+            "y": 80,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 36,
+          "timestamp_ms": 1200.0
+        },
+        {
+          "track_id": 2,
+          "object_id": "person_2",
+          "class_name": "person",
+          "confidence": 0.8500000238418579,
+          "bbox": {
+            "x": 330,
+            "y": 60,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 36,
+          "timestamp_ms": 1200.0
+        },
+        {
+          "track_id": 3,
+          "object_id": "vehicle_3",
+          "class_name": "vehicle",
+          "confidence": 0.7799999713897705,
+          "bbox": {
+            "x": 430,
+            "y": 200,
+            "width": 200,
+            "height": 150
+          },
+          "frame_number": 36,
+          "timestamp_ms": 1200.0
+        }
+      ]
+    },
+    {
+      "frame_number": 42,
+      "timestamp_ms": 1400.0,
+      "tracked_detections": [
+        {
+          "track_id": 1,
+          "object_id": "person_1",
+          "class_name": "person",
+          "confidence": 0.9200000166893005,
+          "bbox": {
+            "x": 85,
+            "y": 80,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 42,
+          "timestamp_ms": 1400.0
+        },
+        {
+          "track_id": 2,
+          "object_id": "person_2",
+          "class_name": "person",
+          "confidence": 0.8500000238418579,
+          "bbox": {
+            "x": 335,
+            "y": 60,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 42,
+          "timestamp_ms": 1400.0
+        },
+        {
+          "track_id": 3,
+          "object_id": "vehicle_3",
+          "class_name": "vehicle",
+          "confidence": 0.7799999713897705,
+          "bbox": {
+            "x": 435,
+            "y": 200,
+            "width": 200,
+            "height": 150
+          },
+          "frame_number": 42,
+          "timestamp_ms": 1400.0
+        }
+      ]
+    },
+    {
+      "frame_number": 48,
+      "timestamp_ms": 1600.0,
+      "tracked_detections": [
+        {
+          "track_id": 1,
+          "object_id": "person_1",
+          "class_name": "person",
+          "confidence": 0.9200000166893005,
+          "bbox": {
+            "x": 90,
+            "y": 80,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 48,
+          "timestamp_ms": 1600.0
+        },
+        {
+          "track_id": 2,
+          "object_id": "person_2",
+          "class_name": "person",
+          "confidence": 0.8500000238418579,
+          "bbox": {
+            "x": 340,
+            "y": 60,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 48,
+          "timestamp_ms": 1600.0
+        },
+        {
+          "track_id": 3,
+          "object_id": "vehicle_3",
+          "class_name": "vehicle",
+          "confidence": 0.7799999713897705,
+          "bbox": {
+            "x": 440,
+            "y": 200,
+            "width": 200,
+            "height": 150
+          },
+          "frame_number": 48,
+          "timestamp_ms": 1600.0
+        }
+      ]
+    },
+    {
+      "frame_number": 54,
+      "timestamp_ms": 1800.0,
+      "tracked_detections": [
+        {
+          "track_id": 1,
+          "object_id": "person_1",
+          "class_name": "person",
+          "confidence": 0.9200000166893005,
+          "bbox": {
+            "x": 95,
+            "y": 80,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 54,
+          "timestamp_ms": 1800.0
+        },
+        {
+          "track_id": 2,
+          "object_id": "person_2",
+          "class_name": "person",
+          "confidence": 0.8500000238418579,
+          "bbox": {
+            "x": 345,
+            "y": 60,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 54,
+          "timestamp_ms": 1800.0
+        },
+        {
+          "track_id": 3,
+          "object_id": "vehicle_3",
+          "class_name": "vehicle",
+          "confidence": 0.7799999713897705,
+          "bbox": {
+            "x": 445,
+            "y": 200,
+            "width": 200,
+            "height": 150
+          },
+          "frame_number": 54,
+          "timestamp_ms": 1800.0
+        }
+      ]
+    },
+    {
+      "frame_number": 60,
+      "timestamp_ms": 2000.0,
+      "tracked_detections": [
+        {
+          "track_id": 1,
+          "object_id": "person_1",
+          "class_name": "person",
+          "confidence": 0.9200000166893005,
+          "bbox": {
+            "x": 100,
+            "y": 80,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 60,
+          "timestamp_ms": 2000.0
+        },
+        {
+          "track_id": 2,
+          "object_id": "person_2",
+          "class_name": "person",
+          "confidence": 0.8500000238418579,
+          "bbox": {
+            "x": 350,
+            "y": 60,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 60,
+          "timestamp_ms": 2000.0
+        },
+        {
+          "track_id": 3,
+          "object_id": "vehicle_3",
+          "class_name": "vehicle",
+          "confidence": 0.7799999713897705,
+          "bbox": {
+            "x": 450,
+            "y": 200,
+            "width": 200,
+            "height": 150
+          },
+          "frame_number": 60,
+          "timestamp_ms": 2000.0
+        }
+      ]
+    },
+    {
+      "frame_number": 66,
+      "timestamp_ms": 2200.0,
+      "tracked_detections": [
+        {
+          "track_id": 1,
+          "object_id": "person_1",
+          "class_name": "person",
+          "confidence": 0.9200000166893005,
+          "bbox": {
+            "x": 105,
+            "y": 80,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 66,
+          "timestamp_ms": 2200.0
+        },
+        {
+          "track_id": 2,
+          "object_id": "person_2",
+          "class_name": "person",
+          "confidence": 0.8500000238418579,
+          "bbox": {
+            "x": 355,
+            "y": 60,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 66,
+          "timestamp_ms": 2200.0
+        },
+        {
+          "track_id": 3,
+          "object_id": "vehicle_3",
+          "class_name": "vehicle",
+          "confidence": 0.7799999713897705,
+          "bbox": {
+            "x": 455,
+            "y": 200,
+            "width": 200,
+            "height": 150
+          },
+          "frame_number": 66,
+          "timestamp_ms": 2200.0
+        }
+      ]
+    },
+    {
+      "frame_number": 72,
+      "timestamp_ms": 2400.0,
+      "tracked_detections": [
+        {
+          "track_id": 1,
+          "object_id": "person_1",
+          "class_name": "person",
+          "confidence": 0.9200000166893005,
+          "bbox": {
+            "x": 110,
+            "y": 80,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 72,
+          "timestamp_ms": 2400.0
+        },
+        {
+          "track_id": 2,
+          "object_id": "person_2",
+          "class_name": "person",
+          "confidence": 0.8500000238418579,
+          "bbox": {
+            "x": 360,
+            "y": 60,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 72,
+          "timestamp_ms": 2400.0
+        },
+        {
+          "track_id": 3,
+          "object_id": "vehicle_3",
+          "class_name": "vehicle",
+          "confidence": 0.7799999713897705,
+          "bbox": {
+            "x": 460,
+            "y": 200,
+            "width": 200,
+            "height": 150
+          },
+          "frame_number": 72,
+          "timestamp_ms": 2400.0
+        }
+      ]
+    },
+    {
+      "frame_number": 78,
+      "timestamp_ms": 2600.0,
+      "tracked_detections": [
+        {
+          "track_id": 1,
+          "object_id": "person_1",
+          "class_name": "person",
+          "confidence": 0.9200000166893005,
+          "bbox": {
+            "x": 115,
+            "y": 80,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 78,
+          "timestamp_ms": 2600.0
+        },
+        {
+          "track_id": 2,
+          "object_id": "person_2",
+          "class_name": "person",
+          "confidence": 0.8500000238418579,
+          "bbox": {
+            "x": 365,
+            "y": 60,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 78,
+          "timestamp_ms": 2600.0
+        },
+        {
+          "track_id": 3,
+          "object_id": "vehicle_3",
+          "class_name": "vehicle",
+          "confidence": 0.7799999713897705,
+          "bbox": {
+            "x": 465,
+            "y": 200,
+            "width": 200,
+            "height": 150
+          },
+          "frame_number": 78,
+          "timestamp_ms": 2600.0
+        }
+      ]
+    },
+    {
+      "frame_number": 84,
+      "timestamp_ms": 2800.0,
+      "tracked_detections": [
+        {
+          "track_id": 1,
+          "object_id": "person_1",
+          "class_name": "person",
+          "confidence": 0.9200000166893005,
+          "bbox": {
+            "x": 120,
+            "y": 80,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 84,
+          "timestamp_ms": 2800.0
+        },
+        {
+          "track_id": 2,
+          "object_id": "person_2",
+          "class_name": "person",
+          "confidence": 0.8500000238418579,
+          "bbox": {
+            "x": 370,
+            "y": 60,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 84,
+          "timestamp_ms": 2800.0
+        },
+        {
+          "track_id": 3,
+          "object_id": "vehicle_3",
+          "class_name": "vehicle",
+          "confidence": 0.7799999713897705,
+          "bbox": {
+            "x": 470,
+            "y": 200,
+            "width": 200,
+            "height": 150
+          },
+          "frame_number": 84,
+          "timestamp_ms": 2800.0
+        }
+      ]
+    },
+    {
+      "frame_number": 90,
+      "timestamp_ms": 3000.0,
+      "tracked_detections": [
+        {
+          "track_id": 1,
+          "object_id": "person_1",
+          "class_name": "person",
+          "confidence": 0.9200000166893005,
+          "bbox": {
+            "x": 125,
+            "y": 80,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 90,
+          "timestamp_ms": 3000.0
+        },
+        {
+          "track_id": 2,
+          "object_id": "person_2",
+          "class_name": "person",
+          "confidence": 0.8500000238418579,
+          "bbox": {
+            "x": 375,
+            "y": 60,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 90,
+          "timestamp_ms": 3000.0
+        },
+        {
+          "track_id": 3,
+          "object_id": "vehicle_3",
+          "class_name": "vehicle",
+          "confidence": 0.7799999713897705,
+          "bbox": {
+            "x": 475,
+            "y": 200,
+            "width": 200,
+            "height": 150
+          },
+          "frame_number": 90,
+          "timestamp_ms": 3000.0
+        }
+      ]
+    },
+    {
+      "frame_number": 96,
+      "timestamp_ms": 3200.0,
+      "tracked_detections": [
+        {
+          "track_id": 1,
+          "object_id": "person_1",
+          "class_name": "person",
+          "confidence": 0.9200000166893005,
+          "bbox": {
+            "x": 130,
+            "y": 80,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 96,
+          "timestamp_ms": 3200.0
+        },
+        {
+          "track_id": 2,
+          "object_id": "person_2",
+          "class_name": "person",
+          "confidence": 0.8500000238418579,
+          "bbox": {
+            "x": 380,
+            "y": 60,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 96,
+          "timestamp_ms": 3200.0
+        },
+        {
+          "track_id": 3,
+          "object_id": "vehicle_3",
+          "class_name": "vehicle",
+          "confidence": 0.7799999713897705,
+          "bbox": {
+            "x": 480,
+            "y": 200,
+            "width": 200,
+            "height": 150
+          },
+          "frame_number": 96,
+          "timestamp_ms": 3200.0
+        }
+      ]
+    },
+    {
+      "frame_number": 102,
+      "timestamp_ms": 3400.0,
+      "tracked_detections": [
+        {
+          "track_id": 1,
+          "object_id": "person_1",
+          "class_name": "person",
+          "confidence": 0.9200000166893005,
+          "bbox": {
+            "x": 135,
+            "y": 80,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 102,
+          "timestamp_ms": 3400.0
+        },
+        {
+          "track_id": 2,
+          "object_id": "person_2",
+          "class_name": "person",
+          "confidence": 0.8500000238418579,
+          "bbox": {
+            "x": 385,
+            "y": 60,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 102,
+          "timestamp_ms": 3400.0
+        },
+        {
+          "track_id": 3,
+          "object_id": "vehicle_3",
+          "class_name": "vehicle",
+          "confidence": 0.7799999713897705,
+          "bbox": {
+            "x": 485,
+            "y": 200,
+            "width": 200,
+            "height": 150
+          },
+          "frame_number": 102,
+          "timestamp_ms": 3400.0
+        }
+      ]
+    },
+    {
+      "frame_number": 108,
+      "timestamp_ms": 3600.0,
+      "tracked_detections": [
+        {
+          "track_id": 1,
+          "object_id": "person_1",
+          "class_name": "person",
+          "confidence": 0.9200000166893005,
+          "bbox": {
+            "x": 140,
+            "y": 80,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 108,
+          "timestamp_ms": 3600.0
+        },
+        {
+          "track_id": 2,
+          "object_id": "person_2",
+          "class_name": "person",
+          "confidence": 0.8500000238418579,
+          "bbox": {
+            "x": 390,
+            "y": 60,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 108,
+          "timestamp_ms": 3600.0
+        },
+        {
+          "track_id": 3,
+          "object_id": "vehicle_3",
+          "class_name": "vehicle",
+          "confidence": 0.7799999713897705,
+          "bbox": {
+            "x": 490,
+            "y": 200,
+            "width": 200,
+            "height": 150
+          },
+          "frame_number": 108,
+          "timestamp_ms": 3600.0
+        }
+      ]
+    },
+    {
+      "frame_number": 114,
+      "timestamp_ms": 3800.0,
+      "tracked_detections": [
+        {
+          "track_id": 1,
+          "object_id": "person_1",
+          "class_name": "person",
+          "confidence": 0.9200000166893005,
+          "bbox": {
+            "x": 145,
+            "y": 80,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 114,
+          "timestamp_ms": 3800.0
+        },
+        {
+          "track_id": 2,
+          "object_id": "person_2",
+          "class_name": "person",
+          "confidence": 0.8500000238418579,
+          "bbox": {
+            "x": 395,
+            "y": 60,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 114,
+          "timestamp_ms": 3800.0
+        },
+        {
+          "track_id": 3,
+          "object_id": "vehicle_3",
+          "class_name": "vehicle",
+          "confidence": 0.7799999713897705,
+          "bbox": {
+            "x": 495,
+            "y": 200,
+            "width": 200,
+            "height": 150
+          },
+          "frame_number": 114,
+          "timestamp_ms": 3800.0
+        }
+      ]
+    },
+    {
+      "frame_number": 120,
+      "timestamp_ms": 4000.0,
+      "tracked_detections": [
+        {
+          "track_id": 1,
+          "object_id": "person_1",
+          "class_name": "person",
+          "confidence": 0.9200000166893005,
+          "bbox": {
+            "x": 150,
+            "y": 80,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 120,
+          "timestamp_ms": 4000.0
+        },
+        {
+          "track_id": 2,
+          "object_id": "person_2",
+          "class_name": "person",
+          "confidence": 0.8500000238418579,
+          "bbox": {
+            "x": 400,
+            "y": 60,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 120,
+          "timestamp_ms": 4000.0
+        },
+        {
+          "track_id": 3,
+          "object_id": "vehicle_3",
+          "class_name": "vehicle",
+          "confidence": 0.7799999713897705,
+          "bbox": {
+            "x": 500,
+            "y": 200,
+            "width": 200,
+            "height": 150
+          },
+          "frame_number": 120,
+          "timestamp_ms": 4000.0
+        }
+      ]
+    },
+    {
+      "frame_number": 126,
+      "timestamp_ms": 4200.0,
+      "tracked_detections": [
+        {
+          "track_id": 1,
+          "object_id": "person_1",
+          "class_name": "person",
+          "confidence": 0.9200000166893005,
+          "bbox": {
+            "x": 155,
+            "y": 80,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 126,
+          "timestamp_ms": 4200.0
+        },
+        {
+          "track_id": 2,
+          "object_id": "person_2",
+          "class_name": "person",
+          "confidence": 0.8500000238418579,
+          "bbox": {
+            "x": 405,
+            "y": 60,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 126,
+          "timestamp_ms": 4200.0
+        },
+        {
+          "track_id": 3,
+          "object_id": "vehicle_3",
+          "class_name": "vehicle",
+          "confidence": 0.7799999713897705,
+          "bbox": {
+            "x": 505,
+            "y": 200,
+            "width": 200,
+            "height": 150
+          },
+          "frame_number": 126,
+          "timestamp_ms": 4200.0
+        }
+      ]
+    },
+    {
+      "frame_number": 132,
+      "timestamp_ms": 4400.0,
+      "tracked_detections": [
+        {
+          "track_id": 1,
+          "object_id": "person_1",
+          "class_name": "person",
+          "confidence": 0.9200000166893005,
+          "bbox": {
+            "x": 160,
+            "y": 80,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 132,
+          "timestamp_ms": 4400.0
+        },
+        {
+          "track_id": 2,
+          "object_id": "person_2",
+          "class_name": "person",
+          "confidence": 0.8500000238418579,
+          "bbox": {
+            "x": 410,
+            "y": 60,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 132,
+          "timestamp_ms": 4400.0
+        },
+        {
+          "track_id": 3,
+          "object_id": "vehicle_3",
+          "class_name": "vehicle",
+          "confidence": 0.7799999713897705,
+          "bbox": {
+            "x": 510,
+            "y": 200,
+            "width": 200,
+            "height": 150
+          },
+          "frame_number": 132,
+          "timestamp_ms": 4400.0
+        }
+      ]
+    },
+    {
+      "frame_number": 138,
+      "timestamp_ms": 4600.0,
+      "tracked_detections": [
+        {
+          "track_id": 1,
+          "object_id": "person_1",
+          "class_name": "person",
+          "confidence": 0.9200000166893005,
+          "bbox": {
+            "x": 165,
+            "y": 80,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 138,
+          "timestamp_ms": 4600.0
+        },
+        {
+          "track_id": 2,
+          "object_id": "person_2",
+          "class_name": "person",
+          "confidence": 0.8500000238418579,
+          "bbox": {
+            "x": 415,
+            "y": 60,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 138,
+          "timestamp_ms": 4600.0
+        },
+        {
+          "track_id": 3,
+          "object_id": "vehicle_3",
+          "class_name": "vehicle",
+          "confidence": 0.7799999713897705,
+          "bbox": {
+            "x": 515,
+            "y": 200,
+            "width": 200,
+            "height": 150
+          },
+          "frame_number": 138,
+          "timestamp_ms": 4600.0
+        }
+      ]
+    },
+    {
+      "frame_number": 144,
+      "timestamp_ms": 4800.0,
+      "tracked_detections": [
+        {
+          "track_id": 1,
+          "object_id": "person_1",
+          "class_name": "person",
+          "confidence": 0.9200000166893005,
+          "bbox": {
+            "x": 170,
+            "y": 80,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 144,
+          "timestamp_ms": 4800.0
+        },
+        {
+          "track_id": 2,
+          "object_id": "person_2",
+          "class_name": "person",
+          "confidence": 0.8500000238418579,
+          "bbox": {
+            "x": 420,
+            "y": 60,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 144,
+          "timestamp_ms": 4800.0
+        },
+        {
+          "track_id": 3,
+          "object_id": "vehicle_3",
+          "class_name": "vehicle",
+          "confidence": 0.7799999713897705,
+          "bbox": {
+            "x": 520,
+            "y": 200,
+            "width": 200,
+            "height": 150
+          },
+          "frame_number": 144,
+          "timestamp_ms": 4800.0
+        }
+      ]
+    },
+    {
+      "frame_number": 150,
+      "timestamp_ms": 5000.0,
+      "tracked_detections": [
+        {
+          "track_id": 1,
+          "object_id": "person_1",
+          "class_name": "person",
+          "confidence": 0.9200000166893005,
+          "bbox": {
+            "x": 175,
+            "y": 80,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 150,
+          "timestamp_ms": 5000.0
+        },
+        {
+          "track_id": 2,
+          "object_id": "person_2",
+          "class_name": "person",
+          "confidence": 0.8500000238418579,
+          "bbox": {
+            "x": 425,
+            "y": 60,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 150,
+          "timestamp_ms": 5000.0
+        },
+        {
+          "track_id": 3,
+          "object_id": "vehicle_3",
+          "class_name": "vehicle",
+          "confidence": 0.7799999713897705,
+          "bbox": {
+            "x": 525,
+            "y": 200,
+            "width": 200,
+            "height": 150
+          },
+          "frame_number": 150,
+          "timestamp_ms": 5000.0
+        }
+      ]
+    },
+    {
+      "frame_number": 156,
+      "timestamp_ms": 5200.0,
+      "tracked_detections": [
+        {
+          "track_id": 1,
+          "object_id": "person_1",
+          "class_name": "person",
+          "confidence": 0.9200000166893005,
+          "bbox": {
+            "x": 180,
+            "y": 80,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 156,
+          "timestamp_ms": 5200.0
+        },
+        {
+          "track_id": 2,
+          "object_id": "person_2",
+          "class_name": "person",
+          "confidence": 0.8500000238418579,
+          "bbox": {
+            "x": 430,
+            "y": 60,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 156,
+          "timestamp_ms": 5200.0
+        },
+        {
+          "track_id": 3,
+          "object_id": "vehicle_3",
+          "class_name": "vehicle",
+          "confidence": 0.7799999713897705,
+          "bbox": {
+            "x": 530,
+            "y": 200,
+            "width": 200,
+            "height": 150
+          },
+          "frame_number": 156,
+          "timestamp_ms": 5200.0
+        }
+      ]
+    },
+    {
+      "frame_number": 162,
+      "timestamp_ms": 5400.0,
+      "tracked_detections": [
+        {
+          "track_id": 1,
+          "object_id": "person_1",
+          "class_name": "person",
+          "confidence": 0.9200000166893005,
+          "bbox": {
+            "x": 185,
+            "y": 80,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 162,
+          "timestamp_ms": 5400.0
+        },
+        {
+          "track_id": 2,
+          "object_id": "person_2",
+          "class_name": "person",
+          "confidence": 0.8500000238418579,
+          "bbox": {
+            "x": 435,
+            "y": 60,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 162,
+          "timestamp_ms": 5400.0
+        },
+        {
+          "track_id": 3,
+          "object_id": "vehicle_3",
+          "class_name": "vehicle",
+          "confidence": 0.7799999713897705,
+          "bbox": {
+            "x": 535,
+            "y": 200,
+            "width": 200,
+            "height": 150
+          },
+          "frame_number": 162,
+          "timestamp_ms": 5400.0
+        }
+      ]
+    },
+    {
+      "frame_number": 168,
+      "timestamp_ms": 5600.0,
+      "tracked_detections": [
+        {
+          "track_id": 1,
+          "object_id": "person_1",
+          "class_name": "person",
+          "confidence": 0.9200000166893005,
+          "bbox": {
+            "x": 190,
+            "y": 80,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 168,
+          "timestamp_ms": 5600.0
+        },
+        {
+          "track_id": 2,
+          "object_id": "person_2",
+          "class_name": "person",
+          "confidence": 0.8500000238418579,
+          "bbox": {
+            "x": 440,
+            "y": 60,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 168,
+          "timestamp_ms": 5600.0
+        },
+        {
+          "track_id": 3,
+          "object_id": "vehicle_3",
+          "class_name": "vehicle",
+          "confidence": 0.7799999713897705,
+          "bbox": {
+            "x": 540,
+            "y": 200,
+            "width": 200,
+            "height": 150
+          },
+          "frame_number": 168,
+          "timestamp_ms": 5600.0
+        }
+      ]
+    },
+    {
+      "frame_number": 174,
+      "timestamp_ms": 5800.0,
+      "tracked_detections": [
+        {
+          "track_id": 1,
+          "object_id": "person_1",
+          "class_name": "person",
+          "confidence": 0.9200000166893005,
+          "bbox": {
+            "x": 195,
+            "y": 80,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 174,
+          "timestamp_ms": 5800.0
+        },
+        {
+          "track_id": 2,
+          "object_id": "person_2",
+          "class_name": "person",
+          "confidence": 0.8500000238418579,
+          "bbox": {
+            "x": 445,
+            "y": 60,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 174,
+          "timestamp_ms": 5800.0
+        },
+        {
+          "track_id": 3,
+          "object_id": "vehicle_3",
+          "class_name": "vehicle",
+          "confidence": 0.7799999713897705,
+          "bbox": {
+            "x": 545,
+            "y": 200,
+            "width": 200,
+            "height": 150
+          },
+          "frame_number": 174,
+          "timestamp_ms": 5800.0
+        }
+      ]
+    },
+    {
+      "frame_number": 180,
+      "timestamp_ms": 6000.0,
+      "tracked_detections": [
+        {
+          "track_id": 1,
+          "object_id": "person_1",
+          "class_name": "person",
+          "confidence": 0.9200000166893005,
+          "bbox": {
+            "x": 200,
+            "y": 80,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 180,
+          "timestamp_ms": 6000.0
+        },
+        {
+          "track_id": 2,
+          "object_id": "person_2",
+          "class_name": "person",
+          "confidence": 0.8500000238418579,
+          "bbox": {
+            "x": 450,
+            "y": 60,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 180,
+          "timestamp_ms": 6000.0
+        },
+        {
+          "track_id": 3,
+          "object_id": "vehicle_3",
+          "class_name": "vehicle",
+          "confidence": 0.7799999713897705,
+          "bbox": {
+            "x": 550,
+            "y": 200,
+            "width": 200,
+            "height": 150
+          },
+          "frame_number": 180,
+          "timestamp_ms": 6000.0
+        }
+      ]
+    },
+    {
+      "frame_number": 186,
+      "timestamp_ms": 6200.0,
+      "tracked_detections": [
+        {
+          "track_id": 1,
+          "object_id": "person_1",
+          "class_name": "person",
+          "confidence": 0.9200000166893005,
+          "bbox": {
+            "x": 205,
+            "y": 80,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 186,
+          "timestamp_ms": 6200.0
+        },
+        {
+          "track_id": 2,
+          "object_id": "person_2",
+          "class_name": "person",
+          "confidence": 0.8500000238418579,
+          "bbox": {
+            "x": 455,
+            "y": 60,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 186,
+          "timestamp_ms": 6200.0
+        },
+        {
+          "track_id": 3,
+          "object_id": "vehicle_3",
+          "class_name": "vehicle",
+          "confidence": 0.7799999713897705,
+          "bbox": {
+            "x": 555,
+            "y": 200,
+            "width": 200,
+            "height": 150
+          },
+          "frame_number": 186,
+          "timestamp_ms": 6200.0
+        }
+      ]
+    },
+    {
+      "frame_number": 192,
+      "timestamp_ms": 6400.0,
+      "tracked_detections": [
+        {
+          "track_id": 1,
+          "object_id": "person_1",
+          "class_name": "person",
+          "confidence": 0.9200000166893005,
+          "bbox": {
+            "x": 210,
+            "y": 80,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 192,
+          "timestamp_ms": 6400.0
+        },
+        {
+          "track_id": 2,
+          "object_id": "person_2",
+          "class_name": "person",
+          "confidence": 0.8500000238418579,
+          "bbox": {
+            "x": 460,
+            "y": 60,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 192,
+          "timestamp_ms": 6400.0
+        },
+        {
+          "track_id": 3,
+          "object_id": "vehicle_3",
+          "class_name": "vehicle",
+          "confidence": 0.7799999713897705,
+          "bbox": {
+            "x": 560,
+            "y": 200,
+            "width": 200,
+            "height": 150
+          },
+          "frame_number": 192,
+          "timestamp_ms": 6400.0
+        }
+      ]
+    },
+    {
+      "frame_number": 198,
+      "timestamp_ms": 6600.0,
+      "tracked_detections": [
+        {
+          "track_id": 1,
+          "object_id": "person_1",
+          "class_name": "person",
+          "confidence": 0.9200000166893005,
+          "bbox": {
+            "x": 215,
+            "y": 80,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 198,
+          "timestamp_ms": 6600.0
+        },
+        {
+          "track_id": 2,
+          "object_id": "person_2",
+          "class_name": "person",
+          "confidence": 0.8500000238418579,
+          "bbox": {
+            "x": 465,
+            "y": 60,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 198,
+          "timestamp_ms": 6600.0
+        },
+        {
+          "track_id": 3,
+          "object_id": "vehicle_3",
+          "class_name": "vehicle",
+          "confidence": 0.7799999713897705,
+          "bbox": {
+            "x": 565,
+            "y": 200,
+            "width": 200,
+            "height": 150
+          },
+          "frame_number": 198,
+          "timestamp_ms": 6600.0
+        }
+      ]
+    },
+    {
+      "frame_number": 204,
+      "timestamp_ms": 6800.0,
+      "tracked_detections": [
+        {
+          "track_id": 1,
+          "object_id": "person_1",
+          "class_name": "person",
+          "confidence": 0.9200000166893005,
+          "bbox": {
+            "x": 220,
+            "y": 80,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 204,
+          "timestamp_ms": 6800.0
+        },
+        {
+          "track_id": 2,
+          "object_id": "person_2",
+          "class_name": "person",
+          "confidence": 0.8500000238418579,
+          "bbox": {
+            "x": 470,
+            "y": 60,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 204,
+          "timestamp_ms": 6800.0
+        },
+        {
+          "track_id": 3,
+          "object_id": "vehicle_3",
+          "class_name": "vehicle",
+          "confidence": 0.7799999713897705,
+          "bbox": {
+            "x": 570,
+            "y": 200,
+            "width": 200,
+            "height": 150
+          },
+          "frame_number": 204,
+          "timestamp_ms": 6800.0
+        }
+      ]
+    },
+    {
+      "frame_number": 210,
+      "timestamp_ms": 7000.0,
+      "tracked_detections": [
+        {
+          "track_id": 1,
+          "object_id": "person_1",
+          "class_name": "person",
+          "confidence": 0.9200000166893005,
+          "bbox": {
+            "x": 225,
+            "y": 80,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 210,
+          "timestamp_ms": 7000.0
+        },
+        {
+          "track_id": 2,
+          "object_id": "person_2",
+          "class_name": "person",
+          "confidence": 0.8500000238418579,
+          "bbox": {
+            "x": 475,
+            "y": 60,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 210,
+          "timestamp_ms": 7000.0
+        },
+        {
+          "track_id": 3,
+          "object_id": "vehicle_3",
+          "class_name": "vehicle",
+          "confidence": 0.7799999713897705,
+          "bbox": {
+            "x": 575,
+            "y": 200,
+            "width": 200,
+            "height": 150
+          },
+          "frame_number": 210,
+          "timestamp_ms": 7000.0
+        }
+      ]
+    },
+    {
+      "frame_number": 216,
+      "timestamp_ms": 7200.0,
+      "tracked_detections": [
+        {
+          "track_id": 1,
+          "object_id": "person_1",
+          "class_name": "person",
+          "confidence": 0.9200000166893005,
+          "bbox": {
+            "x": 230,
+            "y": 80,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 216,
+          "timestamp_ms": 7200.0
+        },
+        {
+          "track_id": 2,
+          "object_id": "person_2",
+          "class_name": "person",
+          "confidence": 0.8500000238418579,
+          "bbox": {
+            "x": 480,
+            "y": 60,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 216,
+          "timestamp_ms": 7200.0
+        },
+        {
+          "track_id": 3,
+          "object_id": "vehicle_3",
+          "class_name": "vehicle",
+          "confidence": 0.7799999713897705,
+          "bbox": {
+            "x": 580,
+            "y": 200,
+            "width": 200,
+            "height": 150
+          },
+          "frame_number": 216,
+          "timestamp_ms": 7200.0
+        }
+      ]
+    },
+    {
+      "frame_number": 222,
+      "timestamp_ms": 7400.0,
+      "tracked_detections": [
+        {
+          "track_id": 1,
+          "object_id": "person_1",
+          "class_name": "person",
+          "confidence": 0.9200000166893005,
+          "bbox": {
+            "x": 235,
+            "y": 80,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 222,
+          "timestamp_ms": 7400.0
+        },
+        {
+          "track_id": 2,
+          "object_id": "person_2",
+          "class_name": "person",
+          "confidence": 0.8500000238418579,
+          "bbox": {
+            "x": 485,
+            "y": 60,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 222,
+          "timestamp_ms": 7400.0
+        },
+        {
+          "track_id": 3,
+          "object_id": "vehicle_3",
+          "class_name": "vehicle",
+          "confidence": 0.7799999713897705,
+          "bbox": {
+            "x": 585,
+            "y": 200,
+            "width": 200,
+            "height": 150
+          },
+          "frame_number": 222,
+          "timestamp_ms": 7400.0
+        }
+      ]
+    },
+    {
+      "frame_number": 228,
+      "timestamp_ms": 7600.0,
+      "tracked_detections": [
+        {
+          "track_id": 1,
+          "object_id": "person_1",
+          "class_name": "person",
+          "confidence": 0.9200000166893005,
+          "bbox": {
+            "x": 240,
+            "y": 80,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 228,
+          "timestamp_ms": 7600.0
+        },
+        {
+          "track_id": 2,
+          "object_id": "person_2",
+          "class_name": "person",
+          "confidence": 0.8500000238418579,
+          "bbox": {
+            "x": 490,
+            "y": 60,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 228,
+          "timestamp_ms": 7600.0
+        },
+        {
+          "track_id": 3,
+          "object_id": "vehicle_3",
+          "class_name": "vehicle",
+          "confidence": 0.7799999713897705,
+          "bbox": {
+            "x": 590,
+            "y": 200,
+            "width": 200,
+            "height": 150
+          },
+          "frame_number": 228,
+          "timestamp_ms": 7600.0
+        }
+      ]
+    },
+    {
+      "frame_number": 234,
+      "timestamp_ms": 7800.0,
+      "tracked_detections": [
+        {
+          "track_id": 1,
+          "object_id": "person_1",
+          "class_name": "person",
+          "confidence": 0.9200000166893005,
+          "bbox": {
+            "x": 245,
+            "y": 80,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 234,
+          "timestamp_ms": 7800.0
+        },
+        {
+          "track_id": 2,
+          "object_id": "person_2",
+          "class_name": "person",
+          "confidence": 0.8500000238418579,
+          "bbox": {
+            "x": 495,
+            "y": 60,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 234,
+          "timestamp_ms": 7800.0
+        },
+        {
+          "track_id": 3,
+          "object_id": "vehicle_3",
+          "class_name": "vehicle",
+          "confidence": 0.7799999713897705,
+          "bbox": {
+            "x": 595,
+            "y": 200,
+            "width": 200,
+            "height": 150
+          },
+          "frame_number": 234,
+          "timestamp_ms": 7800.0
+        }
+      ]
+    },
+    {
+      "frame_number": 240,
+      "timestamp_ms": 8000.0,
+      "tracked_detections": [
+        {
+          "track_id": 1,
+          "object_id": "person_1",
+          "class_name": "person",
+          "confidence": 0.9200000166893005,
+          "bbox": {
+            "x": 250,
+            "y": 80,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 240,
+          "timestamp_ms": 8000.0
+        },
+        {
+          "track_id": 2,
+          "object_id": "person_2",
+          "class_name": "person",
+          "confidence": 0.8500000238418579,
+          "bbox": {
+            "x": 500,
+            "y": 60,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 240,
+          "timestamp_ms": 8000.0
+        },
+        {
+          "track_id": 3,
+          "object_id": "vehicle_3",
+          "class_name": "vehicle",
+          "confidence": 0.7799999713897705,
+          "bbox": {
+            "x": 600,
+            "y": 200,
+            "width": 200,
+            "height": 150
+          },
+          "frame_number": 240,
+          "timestamp_ms": 8000.0
+        }
+      ]
+    },
+    {
+      "frame_number": 246,
+      "timestamp_ms": 8200.0,
+      "tracked_detections": [
+        {
+          "track_id": 1,
+          "object_id": "person_1",
+          "class_name": "person",
+          "confidence": 0.9200000166893005,
+          "bbox": {
+            "x": 255,
+            "y": 80,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 246,
+          "timestamp_ms": 8200.0
+        },
+        {
+          "track_id": 2,
+          "object_id": "person_2",
+          "class_name": "person",
+          "confidence": 0.8500000238418579,
+          "bbox": {
+            "x": 505,
+            "y": 60,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 246,
+          "timestamp_ms": 8200.0
+        },
+        {
+          "track_id": 3,
+          "object_id": "vehicle_3",
+          "class_name": "vehicle",
+          "confidence": 0.7799999713897705,
+          "bbox": {
+            "x": 605,
+            "y": 200,
+            "width": 200,
+            "height": 150
+          },
+          "frame_number": 246,
+          "timestamp_ms": 8200.0
+        }
+      ]
+    },
+    {
+      "frame_number": 252,
+      "timestamp_ms": 8400.0,
+      "tracked_detections": [
+        {
+          "track_id": 1,
+          "object_id": "person_1",
+          "class_name": "person",
+          "confidence": 0.9200000166893005,
+          "bbox": {
+            "x": 260,
+            "y": 80,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 252,
+          "timestamp_ms": 8400.0
+        },
+        {
+          "track_id": 2,
+          "object_id": "person_2",
+          "class_name": "person",
+          "confidence": 0.8500000238418579,
+          "bbox": {
+            "x": 510,
+            "y": 60,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 252,
+          "timestamp_ms": 8400.0
+        },
+        {
+          "track_id": 3,
+          "object_id": "vehicle_3",
+          "class_name": "vehicle",
+          "confidence": 0.7799999713897705,
+          "bbox": {
+            "x": 610,
+            "y": 200,
+            "width": 200,
+            "height": 150
+          },
+          "frame_number": 252,
+          "timestamp_ms": 8400.0
+        }
+      ]
+    },
+    {
+      "frame_number": 258,
+      "timestamp_ms": 8600.0,
+      "tracked_detections": [
+        {
+          "track_id": 1,
+          "object_id": "person_1",
+          "class_name": "person",
+          "confidence": 0.9200000166893005,
+          "bbox": {
+            "x": 265,
+            "y": 80,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 258,
+          "timestamp_ms": 8600.0
+        },
+        {
+          "track_id": 2,
+          "object_id": "person_2",
+          "class_name": "person",
+          "confidence": 0.8500000238418579,
+          "bbox": {
+            "x": 515,
+            "y": 60,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 258,
+          "timestamp_ms": 8600.0
+        },
+        {
+          "track_id": 3,
+          "object_id": "vehicle_3",
+          "class_name": "vehicle",
+          "confidence": 0.7799999713897705,
+          "bbox": {
+            "x": 615,
+            "y": 200,
+            "width": 200,
+            "height": 150
+          },
+          "frame_number": 258,
+          "timestamp_ms": 8600.0
+        }
+      ]
+    },
+    {
+      "frame_number": 264,
+      "timestamp_ms": 8800.0,
+      "tracked_detections": [
+        {
+          "track_id": 1,
+          "object_id": "person_1",
+          "class_name": "person",
+          "confidence": 0.9200000166893005,
+          "bbox": {
+            "x": 270,
+            "y": 80,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 264,
+          "timestamp_ms": 8800.0
+        },
+        {
+          "track_id": 2,
+          "object_id": "person_2",
+          "class_name": "person",
+          "confidence": 0.8500000238418579,
+          "bbox": {
+            "x": 520,
+            "y": 60,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 264,
+          "timestamp_ms": 8800.0
+        },
+        {
+          "track_id": 3,
+          "object_id": "vehicle_3",
+          "class_name": "vehicle",
+          "confidence": 0.7799999713897705,
+          "bbox": {
+            "x": 620,
+            "y": 200,
+            "width": 200,
+            "height": 150
+          },
+          "frame_number": 264,
+          "timestamp_ms": 8800.0
+        }
+      ]
+    },
+    {
+      "frame_number": 270,
+      "timestamp_ms": 9000.0,
+      "tracked_detections": [
+        {
+          "track_id": 1,
+          "object_id": "person_1",
+          "class_name": "person",
+          "confidence": 0.9200000166893005,
+          "bbox": {
+            "x": 275,
+            "y": 80,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 270,
+          "timestamp_ms": 9000.0
+        },
+        {
+          "track_id": 2,
+          "object_id": "person_2",
+          "class_name": "person",
+          "confidence": 0.8500000238418579,
+          "bbox": {
+            "x": 525,
+            "y": 60,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 270,
+          "timestamp_ms": 9000.0
+        },
+        {
+          "track_id": 3,
+          "object_id": "vehicle_3",
+          "class_name": "vehicle",
+          "confidence": 0.7799999713897705,
+          "bbox": {
+            "x": 625,
+            "y": 200,
+            "width": 200,
+            "height": 150
+          },
+          "frame_number": 270,
+          "timestamp_ms": 9000.0
+        }
+      ]
+    },
+    {
+      "frame_number": 276,
+      "timestamp_ms": 9200.0,
+      "tracked_detections": [
+        {
+          "track_id": 1,
+          "object_id": "person_1",
+          "class_name": "person",
+          "confidence": 0.9200000166893005,
+          "bbox": {
+            "x": 280,
+            "y": 80,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 276,
+          "timestamp_ms": 9200.0
+        },
+        {
+          "track_id": 2,
+          "object_id": "person_2",
+          "class_name": "person",
+          "confidence": 0.8500000238418579,
+          "bbox": {
+            "x": 530,
+            "y": 60,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 276,
+          "timestamp_ms": 9200.0
+        },
+        {
+          "track_id": 3,
+          "object_id": "vehicle_3",
+          "class_name": "vehicle",
+          "confidence": 0.7799999713897705,
+          "bbox": {
+            "x": 630,
+            "y": 200,
+            "width": 200,
+            "height": 150
+          },
+          "frame_number": 276,
+          "timestamp_ms": 9200.0
+        }
+      ]
+    },
+    {
+      "frame_number": 282,
+      "timestamp_ms": 9400.0,
+      "tracked_detections": [
+        {
+          "track_id": 1,
+          "object_id": "person_1",
+          "class_name": "person",
+          "confidence": 0.9200000166893005,
+          "bbox": {
+            "x": 285,
+            "y": 80,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 282,
+          "timestamp_ms": 9400.0
+        },
+        {
+          "track_id": 2,
+          "object_id": "person_2",
+          "class_name": "person",
+          "confidence": 0.8500000238418579,
+          "bbox": {
+            "x": 535,
+            "y": 60,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 282,
+          "timestamp_ms": 9400.0
+        },
+        {
+          "track_id": 3,
+          "object_id": "vehicle_3",
+          "class_name": "vehicle",
+          "confidence": 0.7799999713897705,
+          "bbox": {
+            "x": 635,
+            "y": 200,
+            "width": 200,
+            "height": 150
+          },
+          "frame_number": 282,
+          "timestamp_ms": 9400.0
+        }
+      ]
+    },
+    {
+      "frame_number": 288,
+      "timestamp_ms": 9600.0,
+      "tracked_detections": [
+        {
+          "track_id": 1,
+          "object_id": "person_1",
+          "class_name": "person",
+          "confidence": 0.9200000166893005,
+          "bbox": {
+            "x": 290,
+            "y": 80,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 288,
+          "timestamp_ms": 9600.0
+        },
+        {
+          "track_id": 2,
+          "object_id": "person_2",
+          "class_name": "person",
+          "confidence": 0.8500000238418579,
+          "bbox": {
+            "x": 540,
+            "y": 60,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 288,
+          "timestamp_ms": 9600.0
+        },
+        {
+          "track_id": 3,
+          "object_id": "vehicle_3",
+          "class_name": "vehicle",
+          "confidence": 0.7799999713897705,
+          "bbox": {
+            "x": 640,
+            "y": 200,
+            "width": 200,
+            "height": 150
+          },
+          "frame_number": 288,
+          "timestamp_ms": 9600.0
+        }
+      ]
+    },
+    {
+      "frame_number": 294,
+      "timestamp_ms": 9800.0,
+      "tracked_detections": [
+        {
+          "track_id": 1,
+          "object_id": "person_1",
+          "class_name": "person",
+          "confidence": 0.9200000166893005,
+          "bbox": {
+            "x": 295,
+            "y": 80,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 294,
+          "timestamp_ms": 9800.0
+        },
+        {
+          "track_id": 2,
+          "object_id": "person_2",
+          "class_name": "person",
+          "confidence": 0.8500000238418579,
+          "bbox": {
+            "x": 545,
+            "y": 60,
+            "width": 150,
+            "height": 320
+          },
+          "frame_number": 294,
+          "timestamp_ms": 9800.0
+        },
+        {
+          "track_id": 3,
+          "object_id": "vehicle_3",
+          "class_name": "vehicle",
+          "confidence": 0.7799999713897705,
+          "bbox": {
+            "x": 645,
+            "y": 200,
+            "width": 200,
+            "height": 150
+          },
+          "frame_number": 294,
+          "timestamp_ms": 9800.0
+        }
+      ]
+    }
+  ],
+  "trajectories": [
+    {
+      "track_id": 1,
+      "object_id": "person_1",
+      "class_name": "person",
+      "first_frame": 0,
+      "last_frame": 294,
+      "total_frames": 50,
+      "avg_confidence": 0.9200000166893005,
+      "positions": [
+        {
+          "x": 50,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 55,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 60,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 65,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 70,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 75,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 80,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 85,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 90,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 95,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 100,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 105,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 110,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 115,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 120,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 125,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 130,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 135,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 140,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 145,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 150,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 155,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 160,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 165,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 170,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 175,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 180,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 185,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 190,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 195,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 200,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 205,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 210,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 215,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 220,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 225,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 230,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 235,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 240,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 245,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 250,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 255,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 260,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 265,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 270,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 275,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 280,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 285,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 290,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 295,
+          "y": 80,
+          "width": 150,
+          "height": 320
+        }
+      ],
+      "frame_numbers": [
+        0,
+        6,
+        12,
+        18,
+        24,
+        30,
+        36,
+        42,
+        48,
+        54,
+        60,
+        66,
+        72,
+        78,
+        84,
+        90,
+        96,
+        102,
+        108,
+        114,
+        120,
+        126,
+        132,
+        138,
+        144,
+        150,
+        156,
+        162,
+        168,
+        174,
+        180,
+        186,
+        192,
+        198,
+        204,
+        210,
+        216,
+        222,
+        228,
+        234,
+        240,
+        246,
+        252,
+        258,
+        264,
+        270,
+        276,
+        282,
+        288,
+        294
+      ]
+    },
+    {
+      "track_id": 2,
+      "object_id": "person_2",
+      "class_name": "person",
+      "first_frame": 0,
+      "last_frame": 294,
+      "total_frames": 50,
+      "avg_confidence": 0.8500000238418579,
+      "positions": [
+        {
+          "x": 300,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 305,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 310,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 315,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 320,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 325,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 330,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 335,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 340,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 345,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 350,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 355,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 360,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 365,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 370,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 375,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 380,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 385,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 390,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 395,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 400,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 405,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 410,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 415,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 420,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 425,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 430,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 435,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 440,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 445,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 450,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 455,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 460,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 465,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 470,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 475,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 480,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 485,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 490,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 495,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 500,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 505,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 510,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 515,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 520,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 525,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 530,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 535,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 540,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        },
+        {
+          "x": 545,
+          "y": 60,
+          "width": 150,
+          "height": 320
+        }
+      ],
+      "frame_numbers": [
+        0,
+        6,
+        12,
+        18,
+        24,
+        30,
+        36,
+        42,
+        48,
+        54,
+        60,
+        66,
+        72,
+        78,
+        84,
+        90,
+        96,
+        102,
+        108,
+        114,
+        120,
+        126,
+        132,
+        138,
+        144,
+        150,
+        156,
+        162,
+        168,
+        174,
+        180,
+        186,
+        192,
+        198,
+        204,
+        210,
+        216,
+        222,
+        228,
+        234,
+        240,
+        246,
+        252,
+        258,
+        264,
+        270,
+        276,
+        282,
+        288,
+        294
+      ]
+    },
+    {
+      "track_id": 3,
+      "object_id": "vehicle_3",
+      "class_name": "vehicle",
+      "first_frame": 0,
+      "last_frame": 294,
+      "total_frames": 50,
+      "avg_confidence": 0.7799999713897705,
+      "positions": [
+        {
+          "x": 400,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        {
+          "x": 405,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        {
+          "x": 410,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        {
+          "x": 415,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        {
+          "x": 420,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        {
+          "x": 425,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        {
+          "x": 430,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        {
+          "x": 435,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        {
+          "x": 440,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        {
+          "x": 445,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        {
+          "x": 450,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        {
+          "x": 455,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        {
+          "x": 460,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        {
+          "x": 465,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        {
+          "x": 470,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        {
+          "x": 475,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        {
+          "x": 480,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        {
+          "x": 485,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        {
+          "x": 490,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        {
+          "x": 495,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        {
+          "x": 500,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        {
+          "x": 505,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        {
+          "x": 510,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        {
+          "x": 515,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        {
+          "x": 520,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        {
+          "x": 525,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        {
+          "x": 530,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        {
+          "x": 535,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        {
+          "x": 540,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        {
+          "x": 545,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        {
+          "x": 550,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        {
+          "x": 555,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        {
+          "x": 560,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        {
+          "x": 565,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        {
+          "x": 570,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        {
+          "x": 575,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        {
+          "x": 580,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        {
+          "x": 585,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        {
+          "x": 590,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        {
+          "x": 595,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        {
+          "x": 600,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        {
+          "x": 605,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        {
+          "x": 610,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        {
+          "x": 615,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        {
+          "x": 620,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        {
+          "x": 625,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        {
+          "x": 630,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        {
+          "x": 635,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        {
+          "x": 640,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        },
+        {
+          "x": 645,
+          "y": 200,
+          "width": 200,
+          "height": 150
+        }
+      ],
+      "frame_numbers": [
+        0,
+        6,
+        12,
+        18,
+        24,
+        30,
+        36,
+        42,
+        48,
+        54,
+        60,
+        66,
+        72,
+        78,
+        84,
+        90,
+        96,
+        102,
+        108,
+        114,
+        120,
+        126,
+        132,
+        138,
+        144,
+        150,
+        156,
+        162,
+        168,
+        174,
+        180,
+        186,
+        192,
+        198,
+        204,
+        210,
+        216,
+        222,
+        228,
+        234,
+        240,
+        246,
+        252,
+        258,
+        264,
+        270,
+        276,
+        282,
+        288,
+        294
+      ]
+    }
+  ]
+}
