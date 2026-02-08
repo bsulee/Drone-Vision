@@ -190,3 +190,38 @@ class TestObjectTracker:
         result = tracker.track_frame(frame)
         for td in result.tracked_detections:
             assert td.confidence >= 0.90
+
+    def test_mock_simulates_movement(
+        self, mock_tracking_model, detection_config, tracking_config,
+    ):
+        """Mock fixture should simulate object movement across frames (5px x-shift per frame)."""
+        tracker = ObjectTracker(detection_config, tracking_config)
+        frames = [_make_frame_data(i) for i in range(3)]
+        results = list(tracker.track_stream(iter(frames)))
+
+        # Track a specific object across frames
+        trajectories = tracker.build_trajectories()
+        assert len(trajectories) > 0
+
+        # Verify positions actually differ across frames
+        for traj in trajectories:
+            assert len(traj.positions) == 3
+            # Each frame should have different x-coordinate (5px shift)
+            x_coords = [bbox.x for bbox in traj.positions]
+            # Positions should differ (not all identical)
+            assert len(set(x_coords)) > 1, "Positions should differ across frames"
+            # Verify roughly 5px shift per frame
+            if len(x_coords) >= 2:
+                x_diff = x_coords[1] - x_coords[0]
+                assert abs(x_diff - 5) < 1, f"Expected ~5px shift, got {x_diff}px"
+
+    def test_empty_frame_no_detections(
+        self, mock_empty_tracking_model, detection_config, tracking_config
+    ):
+        """Tracker should handle frames with no detections (boxes.id = None)."""
+        tracker = ObjectTracker(detection_config, tracking_config)
+        frame = _make_frame_data(0)
+        result = tracker.track_frame(frame)
+        assert isinstance(result, FrameTracking)
+        assert result.count == 0
+        assert len(result.tracked_detections) == 0
