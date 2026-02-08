@@ -333,6 +333,35 @@ def mock_tracking_model(monkeypatch):
 
 
 @pytest.fixture
+def mock_empty_tracking_model(monkeypatch):
+    """Mock YOLO model that returns no detections (boxes.id = None).
+
+    Used to test edge case where no objects are detected in a frame.
+    """
+    model = MagicMock()
+    model.names = {0: "person", 2: "car"}
+
+    def _empty_track(image, **kwargs):
+        result = MagicMock()
+        boxes = MagicMock()
+        boxes.id = None
+        boxes.xyxy = np.array([], dtype=np.float32).reshape(0, 4)
+        boxes.conf = np.array([], dtype=np.float32)
+        boxes.cls = np.array([], dtype=np.float32)
+        boxes.__iter__ = lambda self: iter([])
+        boxes.__len__ = lambda self: 0
+        result.boxes = boxes
+        return [result]
+
+    model.track = _empty_track
+    mock_yolo_class = MagicMock(return_value=model)
+    monkeypatch.setattr(
+        "dxd_vision.pipeline.tracker.YOLO", mock_yolo_class, raising=False,
+    )
+    return model
+
+
+@pytest.fixture
 def tracking_config():
     """TrackingConfig with test defaults."""
     return TrackingConfig(
