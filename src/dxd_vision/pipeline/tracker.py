@@ -216,3 +216,7 @@ class ObjectTracker:
     def reset(self) -> None:
         """Reset tracker state for a new video."""
         self._trajectories.clear()
+        # Clear ultralytics internal tracker state (used by persist=True)
+        if hasattr(self._model, 'predictor') and self._model.predictor is not None:
+            if hasattr(self._model.predictor, 'trackers'):
+                self._model.predictor.trackers = {}
