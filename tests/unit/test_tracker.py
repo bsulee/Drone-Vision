@@ -225,3 +225,69 @@ class TestObjectTracker:
         assert isinstance(result, FrameTracking)
         assert result.count == 0
         assert len(result.tracked_detections) == 0
+
+    def test_single_frame_trajectory(
+        self, mock_tracking_model, detection_config, tracking_config
+    ):
+        """Trajectory with only 1 position should be valid."""
+        tracker = ObjectTracker(detection_config, tracking_config)
+        # Process only one frame
+        frame = _make_frame_data(0)
+        result = tracker.track_frame(frame)
+        assert result.count > 0
+
+        trajectories = tracker.build_trajectories()
+        assert len(trajectories) > 0
+        for traj in trajectories:
+            assert traj.total_frames == 1
+            assert traj.first_frame == 0
+            assert traj.last_frame == 0
+            assert len(traj.positions) == 1
+            assert len(traj.frame_numbers) == 1
+
+    def test_target_class_filtering(
+        self, mock_tracking_model, tracking_config
+    ):
+        """Tracker should filter out classes not in target_classes."""
+        # Mock returns 2 person + 1 vehicle — filter to person only
+        config = DetectionConfig(
+            enabled=True,
+            confidence_threshold=0.25,
+            target_classes=["person"],  # exclude vehicle
+            device="cpu",
+        )
+        tracker = ObjectTracker(config, tracking_config)
+        frame = _make_frame_data(0)
+        result = tracker.track_frame(frame)
+
+        # Should only get person detections, not vehicle
+        class_names = {td.class_name for td in result.tracked_detections}
+        assert "person" in class_names
+        assert "vehicle" not in class_names
+        # Mock has 2 person + 1 vehicle, so only 2 should pass filter
+        assert result.count == 2
+
+    def test_build_trajectories_before_processing(
+        self, mock_tracking_model, detection_config, tracking_config
+    ):
+        """build_trajectories() before processing any frames should return empty list."""
+        tracker = ObjectTracker(detection_config, tracking_config)
+        # Don't process any frames
+        trajectories = tracker.build_trajectories()
+        assert trajectories == []
+        assert len(trajectories) == 0
+
+    def test_build_summary_with_zero_frames(
+        self, mock_tracking_model, detection_config, tracking_config
+    ):
+        """build_summary() with zero processed frames should not crash."""
+        tracker = ObjectTracker(detection_config, tracking_config)
+        # Don't process any frames
+        summary = tracker.build_summary([], total_frames=0)
+        assert isinstance(summary, TrackingSummary)
+        assert summary.total_unique_objects == 0
+        assert summary.total_detections == 0
+        assert summary.frames_with_tracks == 0
+        assert summary.frames_without_tracks == 0
+        assert summary.avg_track_length == 0.0
+        assert summary.longest_track == 0
